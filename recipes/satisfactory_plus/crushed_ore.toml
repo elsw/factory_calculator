@@ -1,0 +1,30 @@
+[default]
+produced_in = "Crusher"
+input_rates = [60]
+byproducts = ["Crushed Gangue"]
+
+[Crushed Aurovite]
+inputs = ["Aurovite Ore"]
+output_rates = [60,22.5]
+
+[Crushed Callanite]
+inputs = ["Callanite Ore"]
+output_rates = [60,25]
+
+[Crushed Larrussite]
+inputs = ["Larrussite Ore"]
+output_rates = [40,40]
+
+[Crushed Montanion]
+inputs = ["Montanion Ore"]
+byproducts = ["Sand"]
+output_rates = [60,20]
+
+[Crushed Silica]
+inputs = ["Kyalite"]
+byproducts = ["Sand"]
+output_rates = [60,40]
+
+[Crushed Siterite]
+inputs = ["Siterite Ore"]
+output_rates = [60,25]
