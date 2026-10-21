@@ -1,15 +1,17 @@
-# If "use_blueprints" is set in settings, these recipe shortcuts will take priority over the standard recipes
+# If "use_blueprints" is set in settings, the final result will apply these shortcuts instead of listing every machine
 [default]
 produced_in = "Blueprint"
 
 [Reinforced Iron Plate Factory v1]
 inputs = ["Raw Siterite"]
 input_rates = [60]
-outputs = ["Reinforced Iron Plate","Crushed Gangue"]
+output = "Reinforced Iron Plate"
+byproducts = ["Crushed Gangue"]
 output_rates [5,25]
 
 [Rotor Factory v1]
-inputs = ["Raw Siterite","Crushed Gangue"]
+inputs = ["Raw Siterite","Raw Callanite"]
 input_rates = [60,60]
-outputs = ["Rotor","Concrete"]
+output = "Rotor"
+byproducts = ["Crushed Gangue"]
 output_rates [5,25]
