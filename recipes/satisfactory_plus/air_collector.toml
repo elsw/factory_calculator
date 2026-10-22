@@ -1,0 +1,25 @@
+# Satisfactory Plus recipes produced in the Air Collector.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Air Collector"]
+
+["Air Collector extract Toxic Air via Gas Pillar"]
+inputs = []
+input_rates = []
+output = "Toxic Air"
+output_rates = [30000]
+
+["Air Collector extract Air"]
+inputs = []
+input_rates = []
+output = "Air"
+output_rates = [50000]
+
+["Air Collector extract Toxic Air via Resource Nodes"]
+inputs = []
+input_rates = []
+output = "Toxic Air"
+output_rates = [50000]

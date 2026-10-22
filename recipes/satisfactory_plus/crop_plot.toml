@@ -1,0 +1,147 @@
+# Satisfactory Plus recipes produced in the Crop Plot.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Crop Plot"]
+
+["Fertilized Corn"]
+inputs = ["Corn Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Corn"
+output_rates = [50, 20]
+byproducts = ["Leaves"]
+
+["Fertilized Potato"]
+inputs = ["Potato Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Potato"
+output_rates = [50, 20]
+byproducts = ["Leaves"]
+
+["Enriched Cotton"]
+inputs = ["Cotton Seed", "Water"]
+input_rates = [30, 30000]
+output = "Cotton"
+output_rates = [30, 12]
+byproducts = ["Leaves"]
+
+["Carrot"]
+inputs = ["Carrot Seed"]
+input_rates = [10]
+output_rates = [10, 4]
+byproducts = ["Leaves"]
+
+["Corn"]
+inputs = ["Corn Seed"]
+input_rates = [10]
+output_rates = [10, 4]
+byproducts = ["Leaves"]
+
+["Cotton"]
+inputs = ["Cotton Seed"]
+input_rates = [10]
+output_rates = [10, 4]
+byproducts = ["Leaves"]
+
+["Fertilized Cotton"]
+inputs = ["Cotton Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Cotton"
+output_rates = [50, 20]
+byproducts = ["Leaves"]
+
+["Fertilized Wheat"]
+inputs = ["Wheat Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Wheat"
+output_rates = [50, 20]
+byproducts = ["Leaves"]
+
+["Enriched Wheat"]
+inputs = ["Wheat Seed", "Water"]
+input_rates = [30, 30000]
+output = "Wheat"
+output_rates = [30, 12]
+byproducts = ["Leaves"]
+
+["Yosse Berry"]
+inputs = ["Yosse Seed"]
+input_rates = [10]
+output_rates = [10, 4]
+byproducts = ["Leaves"]
+
+["Enriched Carrots"]
+inputs = ["Carrot Seed", "Water"]
+input_rates = [30, 30000]
+output = "Carrot"
+output_rates = [30, 18]
+byproducts = ["Leaves"]
+
+["Enriched Potato"]
+inputs = ["Potato Seed", "Water"]
+input_rates = [30, 30000]
+output = "Potato"
+output_rates = [30, 12]
+byproducts = ["Leaves"]
+
+["Enriched Corn"]
+inputs = ["Corn Seed", "Water"]
+input_rates = [30, 30000]
+output = "Corn"
+output_rates = [30, 18]
+byproducts = ["Leaves"]
+
+["Enriched Yosse Berry"]
+inputs = ["Yosse Seed", "Water"]
+input_rates = [30, 30000]
+output = "Yosse Berry"
+output_rates = [30, 12]
+byproducts = ["Leaves"]
+
+["Fertilized Carrots"]
+inputs = ["Carrot Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Carrot"
+output_rates = [50, 20]
+byproducts = ["Leaves"]
+
+["Potato"]
+inputs = ["Potato Seed"]
+input_rates = [10]
+output_rates = [10, 4]
+byproducts = ["Leaves"]
+
+["Fertilized Pumpkin"]
+inputs = ["Pumpkin Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Pumpkin"
+output_rates = [50, 20]
+byproducts = ["Leaves"]
+
+["Wheat"]
+inputs = ["Wheat Seed"]
+input_rates = [10]
+output_rates = [10, 4]
+byproducts = ["Leaves"]
+
+["Pumpkin"]
+inputs = ["Pumpkin Seed"]
+input_rates = [10]
+output_rates = [10, 4]
+byproducts = ["Leaves"]
+
+["Enriched Pumpkin"]
+inputs = ["Pumpkin Seed", "Water"]
+input_rates = [30, 30000]
+output = "Pumpkin"
+output_rates = [30, 12]
+byproducts = ["Leaves"]
+
+["Fertilized Yosse Berry"]
+inputs = ["Yosse Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Yosse Berry"
+output_rates = [50, 20]
+byproducts = ["Leaves"]

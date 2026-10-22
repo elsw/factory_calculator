@@ -1,0 +1,169 @@
+# Satisfactory Plus recipes produced in the Composter.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Composter"]
+
+["Compost: Yosse"]
+inputs = ["Yosse Berry", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Diluted White Slug Slime"]
+inputs = ["White Slug", "Spent Slug Slime"]
+input_rates = [30, 3000]
+output = "Slug Slime"
+output_rates = [120000]
+
+["White Slug Slime"]
+inputs = ["White Slug"]
+input_rates = [60]
+output = "Energized Slug Slime"
+output_rates = [12000]
+
+["Purple Slug Slime"]
+inputs = ["Purple Slug"]
+input_rates = [20]
+output = "Slug Slime"
+output_rates = [80000]
+
+["Compost: Mycelia"]
+inputs = ["Mycelia", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Red Slug Slime"]
+inputs = ["Red Slug"]
+input_rates = [12]
+output = "Energized Slug Slime"
+output_rates = [12000]
+
+["Lime Slug Slime"]
+inputs = ["Lime Slug"]
+input_rates = [15]
+output = "Spent Slug Slime"
+output_rates = [7500]
+
+["Universal Paint (Copper Slug)"]
+inputs = ["Copper Slug", "Energetic Dark Matter"]
+input_rates = [6, 60000]
+output = "Universal Paint"
+output_rates = [30000]
+
+["Spent Orange Slime"]
+inputs = ["Orange Slug"]
+input_rates = [15]
+output = "Spent Slug Slime"
+output_rates = [30000]
+
+["Universal Paint (Golden Slug)"]
+inputs = ["Golden Slug", "Energetic Dark Matter"]
+input_rates = [3, 30000]
+output = "Universal Paint"
+output_rates = [30000]
+
+["Compost: Potato"]
+inputs = ["Potato", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Pumpkin"]
+inputs = ["Pumpkin", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Biofuel"]
+inputs = ["Solid Biofuel", "Water"]
+input_rates = [10, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Carrot"]
+inputs = ["Carrot", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Leaves"]
+inputs = ["Leaves", "Water"]
+input_rates = [60, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Blue Slug Slime"]
+inputs = ["Blue Slug"]
+input_rates = [40]
+output = "Slug Slime"
+output_rates = [80000]
+
+["Compost: Apple"]
+inputs = ["Apple", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Banana"]
+inputs = ["Banana", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Biomass"]
+inputs = ["Biomass", "Water"]
+input_rates = [20, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Pink Slug Slime"]
+inputs = ["Pink Slug", "Slug Slime"]
+input_rates = [6, 30000]
+output = "Energized Slug Slime"
+output_rates = [12000]
+
+["Universal Paint (Orange Slug)"]
+inputs = ["Orange Slug", "Energetic Dark Matter"]
+input_rates = [15, 45000]
+output = "Universal Paint"
+output_rates = [15000]
+
+["Turquise Slug Slime"]
+inputs = ["Turquoise Slug"]
+input_rates = [15]
+output = "Spent Slug Slime"
+output_rates = [15000]
+
+["Universal Paint (Iron Slug)"]
+inputs = ["Iron Slug", "Energetic Dark Matter"]
+input_rates = [12, 60000]
+output = "Universal Paint"
+output_rates = [30000]
+
+["Compost: Wheat"]
+inputs = ["Wheat", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Corn"]
+inputs = ["Corn", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Compost: Cotton"]
+inputs = ["Cotton", "Water"]
+input_rates = [30, 15000]
+output = "Nutrient Mixture"
+output_rates = [15000]
+
+["Yellow Slug Slime"]
+inputs = ["Yellow Slug"]
+input_rates = [30]
+output = "Slug Slime"
+output_rates = [80000]

@@ -1,0 +1,163 @@
+# Satisfactory Plus recipes produced in the Sorter.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Sorter"]
+
+["Monochrome Crushed Caterium"]
+inputs = ["Crushed Aurovite", "Crushed Montanion", "Universal Paint"]
+input_rates = [120, 120, 30000]
+output = "Crushed Caterium"
+output_rates = [300]
+
+["Monochrome Crushed Lead"]
+inputs = ["Crushed Larrussite", "Crushed Aurovite", "Universal Paint"]
+input_rates = [100, 90, 30000]
+output = "Crushed Lead"
+output_rates = [300]
+
+["Crushed Copper (Aurovite)"]
+inputs = ["Crushed Aurovite", "Water"]
+input_rates = [180, 20000]
+output = "Crushed Copper"
+output_rates = [96, 64, 16]
+byproducts = ["Crushed Caterium", "Crushed Gangue"]
+
+["Crushed Bauxite"]
+inputs = ["Crushed Montanion", "Caustic Soda"]
+input_rates = [180, 45000]
+output_rates = [180, 30, 30]
+byproducts = ["Crushed Cobalt", "Sand"]
+
+["Crushed Caterium"]
+inputs = ["Crushed Aurovite"]
+input_rates = [120]
+output_rates = [80, 40, 30]
+byproducts = ["Crushed Copper", "Crushed Gangue"]
+
+["Crushed Lead (Aurovite)"]
+inputs = ["Crushed Aurovite", "Sulfuric Acid"]
+input_rates = [240, 30000]
+output = "Crushed Lead"
+output_rates = [150, 30]
+byproducts = ["Crushed Caterium"]
+
+["Crushed Iron"]
+inputs = ["Crushed Siterite"]
+input_rates = [120]
+output_rates = [90, 60, 40]
+byproducts = ["Crushed Tin", "Crushed Gangue"]
+
+["Monochrome Crushed Magnesium"]
+inputs = ["Crushed Callanite", "Crushed Montanion", "Universal Paint"]
+input_rates = [240, 240, 30000]
+output = "Crushed Magnesium"
+output_rates = [300]
+
+["Quartz Crystal"]
+inputs = ["Kyalite"]
+input_rates = [120]
+output_rates = [100, 40, 80]
+byproducts = ["Salt", "Sand"]
+
+["Pure Rutile"]
+inputs = ["Crushed Siterite", "Sulfuric Acid"]
+input_rates = [600, 30000]
+output_rates = [60, 120]
+byproducts = ["Crushed Iron"]
+
+["Crushed Tin"]
+inputs = ["Crushed Siterite", "Air"]
+input_rates = [180, 37500]
+output_rates = [135, 67.5, 60]
+byproducts = ["Crushed Iron", "Crushed Gangue"]
+
+["Salt (Kyalite)"]
+inputs = ["Kyalite", "Water"]
+input_rates = [180, 45000]
+output = "Salt"
+output_rates = [90, 45, 30]
+byproducts = ["Silica", "Sand"]
+
+["Monochrome Crushed Iron"]
+inputs = ["Crushed Siterite", "Crushed Larrussite", "Universal Paint"]
+input_rates = [120, 120, 30000]
+output = "Crushed Iron"
+output_rates = [300]
+
+["Silica (Larrusite)"]
+inputs = ["Crushed Larrussite", "Air"]
+input_rates = [180, 80000]
+output = "Silica"
+output_rates = [120, 80, 40]
+byproducts = ["Crushed Zinc", "Sand"]
+
+["Crushed Cobalt"]
+inputs = ["Crushed Montanion"]
+input_rates = [120]
+output_rates = [90, 30, 30]
+byproducts = ["Crushed Magnesium", "Sand"]
+
+["Monochrome Crushed Copper"]
+inputs = ["Crushed Callanite", "Crushed Aurovite", "Universal Paint"]
+input_rates = [120, 90, 30000]
+output = "Crushed Copper"
+output_rates = [300]
+
+["Crushed Nickel"]
+inputs = ["Crushed Callanite", "Water"]
+input_rates = [240, 60000]
+output_rates = [180, 60]
+byproducts = ["Crushed Magnesium"]
+
+["Crushed Magnesium"]
+inputs = ["Crushed Callanite", "Water"]
+input_rates = [180, 90000]
+output_rates = [150, 30, 45]
+byproducts = ["Crushed Copper", "Crushed Gangue"]
+
+["Crushed Magnesium (Montanion)"]
+inputs = ["Crushed Montanion", "Muriatic Acid"]
+input_rates = [120, 15000]
+output = "Crushed Magnesium"
+output_rates = [90, 30]
+byproducts = ["Crushed Cobalt"]
+
+["Crushed Copper"]
+inputs = ["Crushed Callanite"]
+input_rates = [120]
+output_rates = [96, 80, 40]
+byproducts = ["Crushed Magnesium", "Crushed Gangue"]
+
+["Monochrome Crushed Zinc"]
+inputs = ["Crushed Larrussite", "Carbon Powder", "Universal Paint"]
+input_rates = [120, 80, 30000]
+output = "Crushed Zinc"
+output_rates = [300]
+
+["Crushed Zinc"]
+inputs = ["Crushed Larrussite"]
+input_rates = [120]
+output_rates = [96, 48, 60]
+byproducts = ["Sand", "Crushed Gangue"]
+
+["Cryolite Residue"]
+inputs = ["Kyalite", "Sand"]
+input_rates = [180, 60]
+output = "Kyalite Residue"
+output_rates = [240, 45]
+byproducts = ["Salt"]
+
+["Crushed Lead"]
+inputs = ["Crushed Larrussite", "Air"]
+input_rates = [120, 60000]
+output_rates = [100, 20]
+byproducts = ["Silica"]
+
+["Monochrome Crushed Bauxite"]
+inputs = ["Crushed Montanion", "Kyalite", "Universal Paint"]
+input_rates = [120, 120, 30000]
+output = "Crushed Bauxite"
+output_rates = [300]

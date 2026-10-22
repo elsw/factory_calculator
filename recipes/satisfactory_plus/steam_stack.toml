@@ -1,0 +1,17 @@
+# Satisfactory Plus recipes produced in the Steam Stack.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Steam Stack"]
+
+["Steam Stack sinking Steam"]
+inputs = ["Steam"]
+input_rates = [150000]
+output_rates = []
+
+["Steam Stack sinking Steam (2)"]
+inputs = ["Steam"]
+input_rates = [150000]
+output_rates = []

@@ -1,0 +1,19 @@
+# Satisfactory Plus recipes produced in the Algal Mass Extractor.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Algal Mass Extractor"]
+
+["Algal Mass Extractor extract Algal Mass"]
+inputs = []
+input_rates = []
+output = "Algal Mass"
+output_rates = [60000]
+
+["Algal Mass Extractor extract Algal Mass (2)"]
+inputs = []
+input_rates = []
+output = "Algal Mass"
+output_rates = [60000]

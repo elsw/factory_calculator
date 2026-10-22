@@ -1,0 +1,22 @@
+# Satisfactory Plus recipes produced in the Coal-Powered Generator.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Coal-Powered Generator"]
+
+["Coal-Powered Generator burn Carbon Powder"]
+inputs = ["Water", "Carbon Powder"]
+input_rates = [30000, 8]
+output_rates = []
+
+["Coal-Powered Generator burn Petroleum Coke"]
+inputs = ["Water", "Petroleum Coke"]
+input_rates = [30000, 33.333333]
+output_rates = []
+
+["Coal-Powered Generator burn Coal"]
+inputs = ["Water", "Coal"]
+input_rates = [30000, 20]
+output_rates = []

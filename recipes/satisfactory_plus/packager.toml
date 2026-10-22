@@ -1,0 +1,12 @@
+# Satisfactory Plus recipes produced in the Packager.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Packager"]
+
+["Packaged Sulfuric Acid"]
+inputs = ["Sulfuric Acid", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]

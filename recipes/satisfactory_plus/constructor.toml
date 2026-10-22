@@ -1,0 +1,303 @@
+# Satisfactory Plus recipes produced in the Constructor.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Constructor"]
+
+["Empty Fluid Tank"]
+inputs = ["Steel Ingot"]
+input_rates = [30]
+output_rates = [30]
+
+["Alternate: Alclad Busbar"]
+inputs = ["Alclad Aluminum Plate"]
+input_rates = [18]
+output = "Copper Busbars"
+output_rates = [18]
+
+["Concrete"]
+inputs = ["Crushed Gangue"]
+input_rates = [45]
+output_rates = [15]
+
+["Alternate: Rolled Tin Sheet"]
+inputs = ["Tin Plate"]
+input_rates = [30]
+output = "Tinned Sheet"
+output_rates = [22.5]
+
+["Cable"]
+inputs = ["Wire"]
+input_rates = [60]
+output_rates = [30]
+
+["Alternate: Pure Steel Beam"]
+inputs = ["Steel Ingot"]
+input_rates = [24]
+output = "Steel Beam"
+output_rates = [6]
+
+["Alternate: Rolled Bronze Pipe"]
+inputs = ["Bronze Plates"]
+input_rates = [8]
+output = "Bronze Pipes"
+output_rates = [16]
+
+["FICSMAS Tree Branch"]
+inputs = ["FICSMAS Gift"]
+input_rates = [10]
+output_rates = [10]
+
+["Biomass (Wood)"]
+inputs = ["Wood"]
+input_rates = [45]
+output = "Biomass"
+output_rates = [120]
+
+["Copper Sheet"]
+inputs = ["Copper Ingot"]
+input_rates = [24]
+output_rates = [30]
+
+["Alternate: Brazing Rod"]
+inputs = ["Brass Ingot"]
+input_rates = [10]
+output = "Solder Rod"
+output_rates = [5]
+
+["Hatcher Protein"]
+inputs = ["Hatcher Remains"]
+input_rates = [20]
+output = "Alien Protein"
+output_rates = [20]
+
+["Alternate: Ficsite™ Pipe"]
+inputs = ["Ficsite Ingot"]
+input_rates = [15]
+output = "Titanium Pipe"
+output_rates = [10]
+
+["Alternate: Aluminum Fluid Tank"]
+inputs = ["Aluminum Ingot"]
+input_rates = [30]
+output = "Empty Fluid Tank"
+output_rates = [60]
+
+["Hog Protein"]
+inputs = ["Hog Remains"]
+input_rates = [20]
+output = "Alien Protein"
+output_rates = [20]
+
+["Ficsite™ Trigon"]
+inputs = ["Ficsite Ingot"]
+input_rates = [10]
+output_rates = [30]
+
+["Caterium Plate"]
+inputs = ["Caterium Ingot"]
+input_rates = [60]
+output_rates = [36]
+
+["Quickwire"]
+inputs = ["Caterium Ingot"]
+input_rates = [12]
+output_rates = [80]
+
+["Titanium Pipe"]
+inputs = ["Titanium Plates"]
+input_rates = [2]
+output_rates = [3]
+
+["Candy Cane"]
+inputs = ["FICSMAS Gift"]
+input_rates = [15]
+output_rates = [5]
+
+["Empty Canister"]
+inputs = ["Plastic"]
+input_rates = [30]
+output_rates = [60]
+
+["Steel Bolt"]
+inputs = ["Steel Rod"]
+input_rates = [12.5]
+output_rates = [37.5]
+
+["High Pressure Diamond"]
+inputs = ["Carbon Powder"]
+input_rates = [30]
+output = "Diamonds"
+output_rates = [2]
+
+["Alternate: Compacted Iron Plate"]
+inputs = ["Iron Plate"]
+input_rates = [30]
+output = "Reinforced Iron Plate"
+output_rates = [3]
+
+["Residual Silica"]
+inputs = ["Kyalite Residue"]
+input_rates = [48]
+output = "Silica"
+output_rates = [27]
+
+["Screws"]
+inputs = ["Iron Rod"]
+input_rates = [20]
+output_rates = [50]
+
+["Alien DNA Capsule"]
+inputs = ["Alien Protein"]
+input_rates = [10]
+output_rates = [10]
+
+["Alternate: Pure Tin Wire"]
+inputs = ["Tin Rod"]
+input_rates = [15]
+output = "Tinned Wire"
+output_rates = [11.25]
+
+["Iron Wire"]
+inputs = ["Iron Rod"]
+input_rates = [20]
+output_rates = [30]
+
+["Solid Biofuel"]
+inputs = ["Biomass"]
+input_rates = [120]
+output_rates = [60]
+
+["Copper Rod"]
+inputs = ["Copper Ingot"]
+input_rates = [12]
+output_rates = [18]
+
+["Resid Magnesium"]
+inputs = ["Kyalite Residue"]
+input_rates = [48]
+output = "Magnesium Granules"
+output_rates = [27]
+
+["Iron Plate"]
+inputs = ["Iron Ingot"]
+input_rates = [30]
+output_rates = [20]
+
+["Alternate: Forged Steel Bolt"]
+inputs = ["Steel Beam"]
+input_rates = [15]
+output = "Steel Bolt"
+output_rates = [100]
+
+["Wire"]
+inputs = ["Copper Rod"]
+input_rates = [18]
+output_rates = [30]
+
+["Zinc Plates"]
+inputs = ["Zinc Ingot"]
+input_rates = [12.5]
+output_rates = [15]
+
+["Spitter Protein"]
+inputs = ["Spitter Remains"]
+input_rates = [20]
+output = "Alien Protein"
+output_rates = [20]
+
+["Biomass (Leaves)"]
+inputs = ["Leaves"]
+input_rates = [120]
+output = "Biomass"
+output_rates = [60]
+
+["Tin Rod"]
+inputs = ["Tin Ingot"]
+input_rates = [30]
+output_rates = [15]
+
+["Lead Sheet"]
+inputs = ["Lead Ingot"]
+input_rates = [22.5]
+output_rates = [7.5]
+
+["Alternate: Pure Steel Pipe"]
+inputs = ["Steel Ingot"]
+input_rates = [24]
+output = "Steel Pipe"
+output_rates = [12]
+
+["Iron Sheet"]
+inputs = ["Iron Plate"]
+input_rates = [40]
+output_rates = [50]
+
+["Bronze Plates"]
+inputs = ["Bronze Ingot"]
+input_rates = [30]
+output_rates = [24]
+
+["Brass Plates"]
+inputs = ["Brass Ingot"]
+input_rates = [25]
+output_rates = [18]
+
+["Reanimated SAM"]
+inputs = ["SAM"]
+input_rates = [120]
+output_rates = [30]
+
+["Iron Rebar"]
+inputs = ["Iron Rod"]
+input_rates = [15]
+output_rates = [15]
+
+["Copper Busbars"]
+inputs = ["Copper Rod"]
+input_rates = [24]
+output_rates = [15]
+
+["FICSMAS Actual Snow"]
+inputs = ["FICSMAS Gift"]
+input_rates = [25]
+output_rates = [10]
+
+["FICSMAS Bow"]
+inputs = ["FICSMAS Gift"]
+input_rates = [10]
+output_rates = [5]
+
+["Iron Rod"]
+inputs = ["Iron Ingot"]
+input_rates = [15]
+output_rates = [15]
+
+["Stinger Protein"]
+inputs = ["Stinger Remains"]
+input_rates = [20]
+output = "Alien Protein"
+output_rates = [20]
+
+["Snowball"]
+inputs = ["FICSMAS Actual Snow"]
+input_rates = [15]
+output_rates = [5]
+
+["Cobalt Plates"]
+inputs = ["Cobalt Ingot"]
+input_rates = [30]
+output_rates = [15]
+
+["Alternate: Pure Solder Wire"]
+inputs = ["Solder Rod"]
+input_rates = [10]
+output = "Solder Wire"
+output_rates = [15]
+
+["Bronze Beam"]
+inputs = ["Bronze Ingot"]
+input_rates = [22.5]
+output_rates = [7.5]

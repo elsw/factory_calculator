@@ -1,0 +1,40 @@
+# Satisfactory Plus recipes produced in the Filtrator.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Filtrator"]
+
+["Filtrator filter Tailings Slurry"]
+inputs = ["Tailings Slurry"]
+input_rates = [80000]
+output = "Crushed Iron"
+output_rates = [40, 40, 20, 20]
+byproducts = ["Crushed Copper", "Crushed Tin", "Cold Slag"]
+
+["Filtrator filter Flue Gas"]
+inputs = ["Flue Gas", "Crushed Gangue"]
+input_rates = [50000, 30]
+output = "Sour Gas"
+output_rates = [21000, 18, 12]
+byproducts = ["Sulfur", "Cold Slag"]
+
+["Filtrator filter Slug Slime"]
+inputs = ["Slug Slime"]
+input_rates = [180000]
+output = "Power Shard Fragment"
+output_rates = [3]
+
+["Filtrator filter Algal Mass"]
+inputs = ["Algal Mass"]
+input_rates = [30000]
+output = "Biomass"
+output_rates = [60]
+
+["Filtrator filter Wastewater"]
+inputs = ["Wastewater"]
+input_rates = [60000]
+output = "Water"
+output_rates = [40000, 30, 30, 30, 30]
+byproducts = ["Crushed Zinc", "Crushed Caterium", "Crushed Nickel", "Crushed Cobalt"]

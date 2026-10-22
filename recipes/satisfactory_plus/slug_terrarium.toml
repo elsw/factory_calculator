@@ -1,0 +1,79 @@
+# Satisfactory Plus recipes produced in the Slug Terrarium.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Slug Terrarium"]
+
+["Slug Terrarium breed Orange Slug"]
+inputs = ["Orange Slug", "Protein Meal"]
+input_rates = [1.2, 3]
+output = "Orange Slug Egg"
+output_rates = [3]
+
+["Slug Terrarium breed Lime Slug"]
+inputs = ["Lime Slug", "Sweet Meal"]
+input_rates = [1.2, 3]
+output = "Lime Slug Egg"
+output_rates = [6]
+
+["Slug Terrarium breed Yellow Slug"]
+inputs = ["Yellow Slug", "Grain Meal"]
+input_rates = [1.2, 3]
+output = "Yellow Slug Egg"
+output_rates = [6]
+
+["Slug Terrarium breed White Slug"]
+inputs = ["White Slug", "Vegetable Meal"]
+input_rates = [1.2, 3]
+output = "White Slug Egg"
+output_rates = [3]
+
+["Slug Terrarium breed Turquoise Slug"]
+inputs = ["Turquoise Slug", "Sweet Meal"]
+input_rates = [1.2, 6]
+output = "Turquoise Slug Egg"
+output_rates = [6]
+
+["Slug Terrarium breed Pink Slug"]
+inputs = ["Pink Slug", "Protein Meal"]
+input_rates = [1.2, 3]
+output = "Pink Slug Egg"
+output_rates = [6]
+
+["Slug Terrarium breed Copper Slug"]
+inputs = ["Copper Slug", "Sour Meal"]
+input_rates = [1.2, 3]
+output = "Copper Slug Egg"
+output_rates = [3]
+
+["Slug Terrarium breed Purple Slug"]
+inputs = ["Purple Slug", "Vegetable Meal"]
+input_rates = [1.2, 6]
+output = "Purple Slug Egg"
+output_rates = [3]
+
+["Slug Terrarium breed Iron Slug"]
+inputs = ["Iron Slug", "Sour Meal"]
+input_rates = [1.2, 3]
+output = "Iron Slug Egg"
+output_rates = [3]
+
+["Slug Terrarium breed Blue Slug"]
+inputs = ["Blue Slug", "Grain Meal"]
+input_rates = [2.4, 6]
+output = "Blue Slug Egg"
+output_rates = [12]
+
+["Slug Terrarium breed Red Slug"]
+inputs = ["Red Slug", "Protein Meal"]
+input_rates = [1.2, 6]
+output = "Red Slug Egg"
+output_rates = [3]
+
+["Slug Terrarium breed Golden Slug"]
+inputs = ["Golden Slug", "Fruity Snail Food"]
+input_rates = [1.2, 3]
+output = "Golden Slug Egg"
+output_rates = [3]

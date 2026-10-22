@@ -1,0 +1,107 @@
+# Satisfactory Plus recipes produced in the Crusher Module.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Crusher Module"]
+
+["Crusher Module replace product with Sulfur Powder"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Sulfur Powder"
+output_rates = [120, 40]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Sulfur Powder (2)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Sulfur Powder"
+output_rates = [90, 30]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Sand"]
+inputs = []
+input_rates = []
+output = "Sand"
+output_rates = [80]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Sulfur Powder (3)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Sulfur Powder"
+output_rates = [210, 70]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Sand (2)"]
+inputs = []
+input_rates = []
+output = "Sand"
+output_rates = [80]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Carbon Powder"]
+inputs = []
+input_rates = []
+output = "Carbon Powder"
+output_rates = [80]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Sand (3)"]
+inputs = []
+input_rates = []
+output = "Sand"
+output_rates = [80]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Crushed Aurovite"]
+inputs = []
+input_rates = []
+output = "Crushed Aurovite"
+output_rates = [60, 20]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Crushed Montanion"]
+inputs = []
+input_rates = []
+output = "Crushed Montanion"
+output_rates = [120, 40]
+byproducts = ["Sand"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Crushed Larrussite"]
+inputs = []
+input_rates = []
+output = "Crushed Larrussite"
+output_rates = [60, 20]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Salt"]
+inputs = []
+input_rates = []
+output = "Salt"
+output_rates = [60, 20]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Crushed Siterite"]
+inputs = []
+input_rates = []
+output = "Crushed Siterite"
+output_rates = [60, 20]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]
+
+["Crusher Module replace product with Crushed Callanite"]
+inputs = []
+input_rates = []
+output = "Crushed Callanite"
+output_rates = [60, 20]
+byproducts = ["Crushed Gangue"]
+produced_in = ["Crusher Module", "Modular Miner"]

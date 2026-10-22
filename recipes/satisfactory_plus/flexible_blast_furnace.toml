@@ -1,0 +1,91 @@
+# Satisfactory Plus recipes produced in the Flexible Blast Furnace.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Flexible Blast Furnace"]
+
+["Molten Brass"]
+inputs = ["Crushed Zinc", "Molten Copper"]
+input_rates = [32, 20000]
+output_rates = [80000]
+
+["Molten Caterium"]
+inputs = ["Crushed Caterium"]
+input_rates = [160]
+output_rates = [80000, 10000]
+byproducts = ["Tailings Slurry"]
+
+["Molten Iron"]
+inputs = ["Crushed Iron"]
+input_rates = [120]
+output_rates = [60000]
+
+["Molten Copper"]
+inputs = ["Crushed Copper"]
+input_rates = [120]
+output_rates = [60000]
+
+["Molten Magnitar™"]
+inputs = ["Crushed Cobalt", "Molten Nickel", "Molten Iron"]
+input_rates = [20, 20000, 40000]
+output_rates = [60000, 40000]
+byproducts = ["Tailings Slurry"]
+
+["Alternate: Direct Steel"]
+inputs = ["Iron Ingot", "Flue Gas", "Air"]
+input_rates = [120, 60000, 75000]
+output = "Molten Steel"
+output_rates = [60000]
+
+["Molten Lead"]
+inputs = ["Crushed Lead"]
+input_rates = [120]
+output_rates = [60000]
+
+["Purified Crude Oil"]
+inputs = ["Crude Oil", "Sand"]
+input_rates = [90000, 45]
+output_rates = [45000, 30000]
+byproducts = ["Flue Gas"]
+
+["Alternate: Black Magnitar™"]
+inputs = ["Molten Steel", "Molten Cobalt", "Cold Slag"]
+input_rates = [45000, 30000, 22.5]
+output = "Molten Magnitar™"
+output_rates = [90000]
+
+["Molten Steel"]
+inputs = ["Molten Iron", "Carbon Powder", "Steam"]
+input_rates = [40000, 20, 20000]
+output_rates = [40000, 20000]
+byproducts = ["Flue Gas"]
+
+["Molten Solder"]
+inputs = ["Molten Tin", "Crushed Lead"]
+input_rates = [30000, 60]
+output_rates = [36000]
+
+["Molten Cobalt"]
+inputs = ["Crushed Cobalt", "Hydrogen"]
+input_rates = [90, 40000]
+output_rates = [45000, 45000]
+byproducts = ["Tailings Slurry"]
+
+["Molten Nickel"]
+inputs = ["Crushed Nickel", "Hydrogen"]
+input_rates = [90, 30000]
+output_rates = [45000, 30000]
+byproducts = ["Tailings Slurry"]
+
+["Molten Tin"]
+inputs = ["Crushed Tin"]
+input_rates = [120]
+output_rates = [60000]
+
+["Molten Zinc"]
+inputs = ["Crushed Zinc"]
+input_rates = [120]
+output_rates = [60000, 20000]
+byproducts = ["Tailings Slurry"]

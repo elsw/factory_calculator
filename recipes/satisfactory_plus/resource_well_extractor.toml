@@ -1,0 +1,43 @@
+# Satisfactory Plus recipes produced in the Resource Well Extractor.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Resource Well Extractor"]
+
+["Resource Well Extractor extract Water"]
+inputs = []
+input_rates = []
+output = "Water"
+output_rates = [45000]
+
+["Resource Well Extractor extract Chlorine Gas"]
+inputs = []
+input_rates = []
+output = "Chlorine Gas"
+output_rates = [45000]
+
+["Resource Well Extractor extract Crude Oil"]
+inputs = []
+input_rates = []
+output = "Crude Oil"
+output_rates = [45000]
+
+["Resource Well Extractor extract Deanium"]
+inputs = []
+input_rates = []
+output = "Deanium"
+output_rates = [45000]
+
+["Resource Well Extractor extract Water (2)"]
+inputs = []
+input_rates = []
+output = "Water"
+output_rates = [45000]
+
+["Resource Well Extractor extract Nitrogen Gas"]
+inputs = []
+input_rates = []
+output = "Nitrogen Gas"
+output_rates = [45000]

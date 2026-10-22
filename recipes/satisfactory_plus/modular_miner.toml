@@ -1,0 +1,319 @@
+# Satisfactory Plus recipes produced in the Modular Miner.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Modular Miner"]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Sulfur"
+output_rates = [120]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (2)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Siterite Ore"
+output_rates = [120]
+
+["Fluid Module use Slug Slime to boost Modular Miner"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Montanion Ore"
+output_rates = [420]
+
+["Modular Miner extract Aurovite Ore"]
+inputs = []
+input_rates = []
+output = "Aurovite Ore"
+output_rates = [60]
+
+["Fluid Module use Sulfuric Acid to boost Modular Miner"]
+inputs = ["Sulfuric Acid"]
+input_rates = [30000]
+output = "Uranium"
+output_rates = [360]
+
+["Modular Miner extract Callanite Ore"]
+inputs = []
+input_rates = []
+output = "Callanite Ore"
+output_rates = [60]
+
+["Fluid Module use Slug Slime to boost Modular Miner (2)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Peat"
+output_rates = [210]
+
+["Modular Miner extract Peat"]
+inputs = []
+input_rates = []
+output = "Peat"
+output_rates = [60]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (3)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Dirt"
+output_rates = [120]
+
+["Fluid Module use Water to boost Modular Miner"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Sulfur"
+output_rates = [90]
+
+["Fluid Module use Slug Slime to boost Modular Miner (3)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "SAM"
+output_rates = [210]
+
+["Fluid Module use Slug Slime to boost Modular Miner (4)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Aurovite Ore"
+output_rates = [210]
+
+["Fluid Module use Water to boost Modular Miner (2)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Peat"
+output_rates = [90]
+
+["Fluid Module use Slug Slime to boost Modular Miner (5)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Coal"
+output_rates = [210]
+
+["Fluid Module use Water to boost Modular Miner (3)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Aurovite Ore"
+output_rates = [90]
+
+["Fluid Module use Nitric Acid to boost Modular Miner"]
+inputs = ["Nitric Acid"]
+input_rates = [15000]
+output = "Uranium"
+output_rates = [480]
+
+["Modular Miner extract Siterite Ore"]
+inputs = []
+input_rates = []
+output = "Siterite Ore"
+output_rates = [60]
+
+["Fluid Module use Water to boost Modular Miner (4)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Larrussite Ore"
+output_rates = [90]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (4)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Peat"
+output_rates = [120]
+
+["Fluid Module use Water to boost Modular Miner (5)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Callanite Ore"
+output_rates = [90]
+
+["Fluid Module use Slug Slime to boost Modular Miner (6)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Sulfur"
+output_rates = [210]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (5)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Montanion Ore"
+output_rates = [240]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (6)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Callanite Ore"
+output_rates = [120]
+
+["Fluid Module use Energized Slug Slime to boost Modular Miner"]
+inputs = ["Energized Slug Slime"]
+input_rates = [15000]
+output = "Kerr Crystal"
+output_rates = [210]
+
+["Fluid Module use Water to boost Modular Miner (6)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Siterite Ore"
+output_rates = [90]
+
+["Fluid Module use Slug Slime to boost Modular Miner (7)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Kyalite"
+output_rates = [210]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (7)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Larrussite Ore"
+output_rates = [120]
+
+["Fluid Module use Water to boost Modular Miner (7)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Coal"
+output_rates = [90]
+
+["Fluid Module use Water to boost Modular Miner (8)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Montanion Ore"
+output_rates = [180]
+
+["Modular Miner extract Kyalite"]
+inputs = []
+input_rates = []
+output = "Kyalite"
+output_rates = [60]
+
+["Fluid Module use Slug Slime to boost Modular Miner (8)"]
+inputs = ["Slug Slime"]
+input_rates = [30000]
+output = "Kerr Crystal"
+output_rates = [90]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (8)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Loam"
+output_rates = [120]
+
+["Fluid Module use Slug Slime to boost Modular Miner (9)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Larrussite Ore"
+output_rates = [210]
+
+["Modular Miner extract Montanion Ore"]
+inputs = []
+input_rates = []
+output = "Montanion Ore"
+output_rates = [120]
+
+["Fluid Module use Slug Slime to boost Modular Miner (10)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Dirt"
+output_rates = [210]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (9)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Coal"
+output_rates = [120]
+
+["Modular Miner extract Larrussite Ore"]
+inputs = []
+input_rates = []
+output = "Larrussite Ore"
+output_rates = [60]
+
+["Modular Miner extract Loam"]
+inputs = []
+input_rates = []
+output = "Loam"
+output_rates = [60]
+
+["Fluid Module use Slug Slime to boost Modular Miner (11)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Loam"
+output_rates = [210]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (10)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Kyalite"
+output_rates = [120]
+
+["Fluid Module use Water to boost Modular Miner (9)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Dirt"
+output_rates = [90]
+
+["Fluid Module use Water to boost Modular Miner (10)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Loam"
+output_rates = [90]
+
+["Fluid Module use Energized Slug Slime to boost Modular Miner (2)"]
+inputs = ["Energized Slug Slime"]
+input_rates = [15000]
+output = "Uranium"
+output_rates = [840]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (11)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "Aurovite Ore"
+output_rates = [120]
+
+["Fluid Module use Muriatic Acid to boost Modular Miner (12)"]
+inputs = ["Muriatic Acid"]
+input_rates = [15000]
+output = "SAM"
+output_rates = [120]
+
+["Fluid Module use Water to boost Modular Miner (11)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "Kyalite"
+output_rates = [90]
+
+["Modular Miner extract Coal"]
+inputs = []
+input_rates = []
+output = "Coal"
+output_rates = [60]
+
+["Fluid Module use Slug Slime to boost Modular Miner (12)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Siterite Ore"
+output_rates = [210]
+
+["Fluid Module use Water to boost Modular Miner (12)"]
+inputs = ["Water"]
+input_rates = [30000]
+output = "SAM"
+output_rates = [90]
+
+["Fluid Module use Slug Slime to boost Modular Miner (13)"]
+inputs = ["Slug Slime"]
+input_rates = [15000]
+output = "Callanite Ore"
+output_rates = [210]
+
+["Modular Miner extract SAM"]
+inputs = []
+input_rates = []
+output = "SAM"
+output_rates = [60]
+
+["Modular Miner extract Dirt"]
+inputs = []
+input_rates = []
+output = "Dirt"
+output_rates = [60]

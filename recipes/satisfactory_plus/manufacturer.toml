@@ -1,0 +1,182 @@
+# Satisfactory Plus recipes produced in the Manufacturer.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Manufacturer"]
+
+["Magnetic Field Generator"]
+inputs = ["Power Management Relay", "Titanium Pipe", "Bar Magnet"]
+input_rates = [3, 6, 14.625]
+output_rates = [1.5]
+
+["Radio Control Unit"]
+inputs = ["Crystal Oscillator", "Computer", "Aluminum Casing"]
+input_rates = [3, 3.75, 30]
+output_rates = [4.5]
+
+["Rubberized Belt Drive"]
+inputs = ["Smooth Belt Drive", "Solder Rod", "Steel Pipe", "Rubber"]
+input_rates = [10, 7.5, 15, 50]
+output_rates = [6.25]
+
+["Alternate: Turbofuel Engine"]
+inputs = ["Motor", "Stator", "Radiator", "Packaged Turbofuel"]
+input_rates = [7.5, 22.5, 60, 75]
+output = "Turbo Motor"
+output_rates = [3.75]
+
+["Uranium Fuel Rod"]
+inputs = ["Encased Uranium Cell", "Magnetic Core", "EP Control Rod"]
+input_rates = [24, 16.2, 6]
+output_rates = [1.2]
+
+["Crystal Oscillator"]
+inputs = ["Quartz Crystal", "Glass", "Cable"]
+input_rates = [60, 26.666667, 20]
+output_rates = [4]
+
+["Explosive Rebar"]
+inputs = ["Iron Rebar", "Smokeless Powder", "Steel Pipe"]
+input_rates = [10, 10, 10]
+output_rates = [5]
+
+["Alternate: Electric Turbo Motor"]
+inputs = ["Motor", "Radio Control Unit", "EP Control Rod", "Solder Wire"]
+input_rates = [7.5, 7.5, 12.5, 60]
+output = "Turbo Motor"
+output_rates = [2.5]
+
+["Alternate: Uranium Fuel Unit"]
+inputs = ["Encased Uranium Cell", "Encased Industrial Beam", "EP Control Rod", "Lead Sheet"]
+input_rates = [15, 5, 5, 30]
+output = "Uranium Fuel Rod"
+output_rates = [1]
+
+["Medium FaxIT Disk"]
+inputs = ["Small FaxIT Disk", "Photon Pair Converter", "High-Speed Connector"]
+input_rates = [3, 6, 7.5]
+output_rates = [1.5]
+
+["High-Speed Connector"]
+inputs = ["Quickwire", "Circuit Board", "Cobalt Plates"]
+input_rates = [150, 22.5, 11.25]
+output_rates = [7.5]
+
+["Supercomputer"]
+inputs = ["Computer", "AI Limiter", "High-Speed Connector", "Caterium Heatsink"]
+input_rates = [7.5, 7.5, 3.75, 9.375]
+output_rates = [3.75]
+
+["Alternate: Caterium Computer"]
+inputs = ["Circuit Board", "Cable", "Quickwire", "Rubber"]
+input_rates = [14, 40, 56, 50]
+output = "Computer"
+output_rates = [4]
+
+["Photonic Processor"]
+inputs = ["Photon Pair Converter", "Computer", "Cable"]
+input_rates = [3.75, 3.75, 9.375]
+output_rates = [1.875]
+
+["Adaptive Control Unit"]
+inputs = ["Computer", "Smart Plating", "High-Speed Connector", "Solder Wire"]
+input_rates = [6, 9, 12, 72]
+output_rates = [4]
+
+["Photon Pair Converter"]
+inputs = ["Diamonds", "Data Cable", "Poled Kerr Crystal", "Caterium Heatsink"]
+input_rates = [7.5, 30, 24, 22.5]
+output_rates = [6]
+
+["Heavy Modular Frame"]
+inputs = ["Modular Frame", "Encased Industrial Beam", "Brass Pipes", "Steel Bolt"]
+input_rates = [10, 15, 37.5, 225]
+output_rates = [5]
+
+["Hazmat Filter"]
+inputs = ["Gas Filter", "Quickwire", "Aluminum Casing"]
+input_rates = [20, 40, 5]
+output_rates = [5]
+
+["Alternate: Modular Turbo Engine"]
+inputs = ["Versatile Framework", "Turbo Motor", "Packaged Fuel"]
+input_rates = [11.25, 0.75, 30]
+output = "Modular Engine"
+output_rates = [3]
+
+["Motor"]
+inputs = ["Rotor", "Stator", "Iron Sheet", "Steel Bolt"]
+input_rates = [15, 15, 25, 150]
+output_rates = [10]
+
+["Gas Filter"]
+inputs = ["Fabric", "Carbon Powder", "Iron Plate"]
+input_rates = [30, 60, 30]
+output_rates = [15]
+
+["Thermal Propulsion Rocket"]
+inputs = ["Turbo Motor", "Modular Engine", "Cooling System", "Packaged Rocket Fuel"]
+input_rates = [1.5, 6, 6, 60]
+output_rates = [3]
+
+["Alternate: Heavy Fastened Frame"]
+inputs = ["Modular Frame", "Encased Industrial Beam", "Steel Bolt", "Screws"]
+input_rates = [16, 12, 300, 200]
+output = "Heavy Modular Frame"
+output_rates = [8]
+
+["Alternate: EMF Generator"]
+inputs = ["Power Management Relay", "Automated Wiring", "Titanium Pipe", "Cobalt Plates"]
+input_rates = [4, 12, 12, 48]
+output = "Magnetic Field Generator"
+output_rates = [4]
+
+["Nuke Nobelisk"]
+inputs = ["Nobelisk", "Encased Uranium Cell", "Smokeless Powder", "AI Limiter"]
+input_rates = [2.5, 10, 5, 3]
+output_rates = [0.5]
+
+["Alternate: DC Motor"]
+inputs = ["Rotor", "Bar Magnet", "Cobalt Plates", "Carbon Powder"]
+input_rates = [15, 19.5, 9, 24]
+output = "Motor"
+output_rates = [15]
+
+["Alternate: TITAN Rocket System"]
+inputs = ["Turbo Motor", "Modular Engine", "TITAN Frame", "Packaged Ionized Fuel"]
+input_rates = [3, 4, 1, 50]
+output = "Thermal Propulsion Rocket"
+output_rates = [4]
+
+["Turbomotor"]
+inputs = ["Motor", "Radio Control Unit", "Fan Blades", "Cooling System"]
+input_rates = [7.5, 3.75, 11.25, 7.5]
+output = "Turbo Motor"
+output_rates = [1.875]
+
+["Modular Engine"]
+inputs = ["Versatile Framework", "Motor", "Circuit Board", "Rubber"]
+input_rates = [7.5, 7.5, 10, 50]
+output_rates = [2.5]
+
+["Power Management Relay"]
+inputs = ["EP Control Rod", "Automated Wiring", "Battery", "Plastic"]
+input_rates = [7.5, 4.5, 15, 37.5]
+output_rates = [6]
+
+["Computer"]
+inputs = ["Circuit Board", "Solder Rod", "Plastic"]
+input_rates = [15, 10, 37.5]
+output_rates = [2.5]
+
+["SAM Fluctuator"]
+inputs = ["Reanimated SAM", "Bronze Frame", "Caterium Heatsink"]
+input_rates = [100, 2.5, 7.5]
+output_rates = [10]
+
+["Singularity Cell"]
+inputs = ["Pressure Conversion Cube", "Dark Matter Crystal", "Titanium Plates"]
+input_rates = [5, 200, 20]
+output_rates = [15]

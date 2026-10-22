@@ -1,0 +1,24 @@
+# Satisfactory Plus recipes produced in the Nuclear Power Plant.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Nuclear Power Plant"]
+
+["Nuclear Power Plant burn Ficsonium Fuel Rod"]
+inputs = ["Ficsonium Fuel Rod", "Coolant"]
+input_rates = [4, 60000]
+output_rates = []
+
+["Nuclear Power Plant burn Uranium Fuel Rod"]
+inputs = ["Uranium Fuel Rod", "Coolant"]
+input_rates = [0.8, 60000]
+output = "Uranium Waste"
+output_rates = [24]
+
+["Nuclear Power Plant burn Plutonium Fuel Rod"]
+inputs = ["Plutonium Fuel Rod", "Coolant"]
+input_rates = [0.4, 60000]
+output = "Plutonium Waste"
+output_rates = [4]

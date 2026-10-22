@@ -1,0 +1,91 @@
+# Satisfactory Plus recipes produced in the Wet Washer.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Wet Washer"]
+
+["Washed Bauxite"]
+inputs = ["Montanion Ore", "Sulfuric Acid"]
+input_rates = [60, 25000]
+output = "Crushed Bauxite"
+output_rates = [75, 40000]
+byproducts = ["Wastewater"]
+
+["Washed Magnesium"]
+inputs = ["Callanite Ore", "Muriatic Acid"]
+input_rates = [80, 20000]
+output = "Crushed Magnesium"
+output_rates = [80, 32000]
+byproducts = ["Tailings Slurry"]
+
+["Washed Cobalt"]
+inputs = ["Montanion Ore", "Muriatic Acid"]
+input_rates = [60, 15000]
+output = "Crushed Cobalt"
+output_rates = [60, 30000]
+byproducts = ["Wastewater"]
+
+["Washed Caterium"]
+inputs = ["Aurovite Ore", "Muriatic Acid"]
+input_rates = [60, 15000]
+output = "Crushed Caterium"
+output_rates = [60, 40000]
+byproducts = ["Wastewater"]
+
+["Washed Zinc"]
+inputs = ["Larrussite Ore", "Water"]
+input_rates = [60, 40000]
+output = "Crushed Zinc"
+output_rates = [60, 24000]
+byproducts = ["Wastewater"]
+
+["Washed Copper"]
+inputs = ["Callanite Ore", "Water"]
+input_rates = [24, 24000]
+output = "Crushed Copper"
+output_rates = [36, 24000]
+byproducts = ["Tailings Slurry"]
+
+["Washed Lead"]
+inputs = ["Larrussite Ore", "Sulfuric Acid"]
+input_rates = [120, 30000]
+output = "Crushed Lead"
+output_rates = [150, 15000]
+byproducts = ["Dissolved Silica"]
+
+["Washed Rutile"]
+inputs = ["Siterite Ore", "Nitric Acid"]
+input_rates = [100, 10000]
+output = "Pure Rutile"
+output_rates = [20, 40000]
+byproducts = ["Tailings Slurry"]
+
+["Washed Nickel"]
+inputs = ["Callanite Ore", "Caustic Soda"]
+input_rates = [60, 30000]
+output = "Crushed Nickel"
+output_rates = [40, 40000]
+byproducts = ["Wastewater"]
+
+["Washed Quartz Crystal"]
+inputs = ["Kyalite", "Nitric Acid"]
+input_rates = [60, 10000]
+output = "Quartz Crystal"
+output_rates = [75, 20000]
+byproducts = ["Dissolved Silica"]
+
+["Washed Iron"]
+inputs = ["Siterite Ore", "Water"]
+input_rates = [40, 40000]
+output = "Crushed Iron"
+output_rates = [60, 40000]
+byproducts = ["Tailings Slurry"]
+
+["Washed Tin"]
+inputs = ["Siterite Ore", "Water"]
+input_rates = [60, 30000]
+output = "Crushed Tin"
+output_rates = [45, 60000]
+byproducts = ["Tailings Slurry"]

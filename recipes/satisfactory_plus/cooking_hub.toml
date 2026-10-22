@@ -1,0 +1,78 @@
+# Satisfactory Plus recipes produced in the Cooking Hub.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Cooking Hub"]
+
+["Pumpkin Pie"]
+inputs = ["Wheat", "Pumpkin", "Water"]
+input_rates = [30, 40, 10000]
+output_rates = [0.5]
+
+["Doggo Chow"]
+inputs = ["Yosse Berry", "Mycelia", "Water"]
+input_rates = [35, 35, 25000]
+output_rates = [1]
+
+["Sweet Meal"]
+inputs = ["Bread", "Corn", "Water"]
+input_rates = [5, 20, 10000]
+output_rates = [15]
+
+["Corn Muffin"]
+inputs = ["Wheat", "Corn", "Water"]
+input_rates = [30, 20, 10000]
+output_rates = [1]
+
+["Yosse Muffin"]
+inputs = ["Wheat", "Yosse Berry", "Water"]
+input_rates = [30, 20, 10000]
+output_rates = [1]
+
+["Vegetable Meal"]
+inputs = ["Potato", "Carrot", "Water"]
+input_rates = [40, 40, 40000]
+output_rates = [80]
+
+["Bread"]
+inputs = ["Wheat", "Water"]
+input_rates = [60, 80000]
+output_rates = [4]
+
+["Banana Bread"]
+inputs = ["Wheat", "Banana", "Water"]
+input_rates = [40, 40, 80000]
+output_rates = [4]
+
+["Wheat Muffin"]
+inputs = ["Wheat", "Water"]
+input_rates = [50, 10000]
+output_rates = [1]
+
+["Berry Pie"]
+inputs = ["Wheat", "Yosse Berry", "Water"]
+input_rates = [30, 40, 10000]
+output_rates = [0.5]
+
+["Banana Pie"]
+inputs = ["Wheat", "Banana", "Water"]
+input_rates = [30, 40, 10000]
+output_rates = [0.5]
+
+["Protein Meal"]
+inputs = ["Alien Protein", "Vegetable Meal"]
+input_rates = [2.5, 30]
+output_rates = [7.5]
+
+["Apple Pie"]
+inputs = ["Wheat", "Apple", "Water"]
+input_rates = [30, 40, 10000]
+output_rates = [0.5]
+
+["Artificial Protein"]
+inputs = ["Biomass", "Mycelia", "Nutrient Mixture"]
+input_rates = [150, 60, 37500]
+output = "Alien Protein"
+output_rates = [5]

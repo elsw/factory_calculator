@@ -1,0 +1,27 @@
+# Satisfactory Plus recipes produced in the Flue Gas Stack.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Flue Gas Stack"]
+
+["Flue Gas Stack sinking Flue Gas"]
+inputs = ["Flue Gas"]
+input_rates = [75000]
+output_rates = []
+
+["Flue Gas Stack sinking Air"]
+inputs = ["Air"]
+input_rates = [75000]
+output_rates = []
+
+["Flue Gas Stack sinking Toxic Air"]
+inputs = ["Toxic Air"]
+input_rates = [75000]
+output_rates = []
+
+["Flue Gas Stack sinking Natural Gas"]
+inputs = ["Natural Gas"]
+input_rates = [75000]
+output_rates = []

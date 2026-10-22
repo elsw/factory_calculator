@@ -1,0 +1,32 @@
+# Satisfactory Plus recipes produced in the Fuel-Powered Generator.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Fuel-Powered Generator"]
+
+["Fuel-Powered Generator burn Liquid Biofuel"]
+inputs = ["Liquid Biofuel"]
+input_rates = [7500]
+output_rates = []
+
+["Fuel-Powered Generator burn Ionized Fuel"]
+inputs = ["Ionized Fuel"]
+input_rates = [3000]
+output_rates = []
+
+["Fuel-Powered Generator burn Rocket Fuel"]
+inputs = ["Rocket Fuel"]
+input_rates = [4500]
+output_rates = []
+
+["Fuel-Powered Generator burn Fuel"]
+inputs = ["Fuel"]
+input_rates = [40000]
+output_rates = []
+
+["Fuel-Powered Generator burn Turbofuel"]
+inputs = ["Turbofuel"]
+input_rates = [15000]
+output_rates = []

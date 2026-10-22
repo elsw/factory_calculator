@@ -1,0 +1,204 @@
+# Satisfactory Plus recipes produced in the Refinery.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Refinery"]
+
+["Alternate: Recycled Muriatic Acid"]
+inputs = ["Kyalite Residue", "Caustic Soda"]
+input_rates = [80, 15000]
+output = "Muriatic Acid"
+output_rates = [45000]
+
+["Alternate: Leaded Fuel"]
+inputs = ["Heavy Oil Residue", "Crushed Lead"]
+input_rates = [15000, 15]
+output = "Fuel"
+output_rates = [45000]
+
+["Light Ethylene Gas"]
+inputs = ["Natural Gas"]
+input_rates = [50000]
+output = "Ethylene Gas"
+output_rates = [60000]
+
+["Sour Gas"]
+inputs = ["Sulfur Powder", "Hydrogen"]
+input_rates = [40, 15000]
+output_rates = [35000]
+
+["Universal Paint"]
+inputs = ["SAM", "Energized Slug Slime"]
+input_rates = [60, 30000]
+output_rates = [15000]
+
+["Alternate: Diluted Bitumen"]
+inputs = ["Asphalt", "Water"]
+input_rates = [15, 90000]
+output = "Heavy Oil Residue"
+output_rates = [15000]
+
+["Alternate: Sour Packaged Rocket Fuel"]
+inputs = ["Turbofuel", "Packaged Nitric Acid"]
+input_rates = [75000, 30]
+output = "Packaged Rocket Fuel"
+output_rates = [30, 12000]
+byproducts = ["Nitric Acid"]
+
+["Alternate: Ionized Fuel"]
+inputs = ["Rocket Fuel", "Power Shard Fragment"]
+input_rates = [50000, 10]
+output = "Ionized Fuel"
+output_rates = [60000]
+
+["Alternate: Pure Ethylene"]
+inputs = ["Hydrogen", "Packaged Flue Gas"]
+input_rates = [80000, 20]
+output = "Ethylene Gas"
+output_rates = [60000, 20]
+byproducts = ["Empty Fluid Tank"]
+
+["TiCl Gas"]
+inputs = ["Pure Rutile", "Chlorine Gas"]
+input_rates = [60, 60000]
+output_rates = [45000, 15]
+byproducts = ["Pure Rutile"]
+
+["Bar Magnet"]
+inputs = ["Magnitar™ Billet", "Energized Slug Slime"]
+input_rates = [67.5, 6000]
+output_rates = [32.5, 6000]
+byproducts = ["Spent Slug Slime"]
+
+["Petroleum Coke"]
+inputs = ["Heavy Oil Residue"]
+input_rates = [30000]
+output_rates = [150]
+
+["Alternate: Nickel-Aluminum Ingot"]
+inputs = ["Alumina Solution", "Crushed Nickel"]
+input_rates = [40000, 60]
+output = "Aluminum Ingot"
+output_rates = [100, 20000]
+byproducts = ["Water"]
+
+["Cured Rubber"]
+inputs = ["Polymer Resin", "Fuel"]
+input_rates = [120, 20000]
+output = "Rubber"
+output_rates = [60]
+
+["Smokeless Powder"]
+inputs = ["Black Powder", "Ethylene Gas"]
+input_rates = [45, 30000]
+output_rates = [30]
+
+["Cured Plastic"]
+inputs = ["Polymer Resin", "Fuel"]
+input_rates = [120, 20000]
+output = "Plastic"
+output_rates = [60]
+
+["Alternate: Brazed Busbar"]
+inputs = ["Copper Sheet", "Molten Solder"]
+input_rates = [30, 18000]
+output = "Copper Busbars"
+output_rates = [45]
+
+["Alternate: Leached Alumina"]
+inputs = ["Kyalite Residue", "Sulfuric Acid"]
+input_rates = [40, 25000]
+output = "Alumina Solution"
+output_rates = [30000, 10]
+byproducts = ["Salt"]
+
+["Concentrated Slug Slime"]
+inputs = ["Slug Slime"]
+input_rates = [120000]
+output = "Energized Slug Slime"
+output_rates = [12000]
+
+["Alternate: Pure Coolant Oil"]
+inputs = ["Hydrogen", "Packaged Flue Gas"]
+input_rates = [50000, 10]
+output = "Coolant"
+output_rates = [30000, 10]
+byproducts = ["Empty Fluid Tank"]
+
+["Alternate: Condensed Graphene"]
+inputs = ["Natural Gas"]
+input_rates = [30000]
+output = "Carbon Powder"
+output_rates = [60]
+
+["Alternate: Volatile Turbofuel"]
+inputs = ["Fuel", "Black Powder"]
+input_rates = [48000, 24]
+output = "Turbofuel"
+output_rates = [40000]
+
+["Alternate: Refined Slurry"]
+inputs = ["Tailings Slurry"]
+input_rates = [30000]
+output = "Crushed Gangue"
+output_rates = [60, 7500]
+byproducts = ["Water"]
+
+["Alternate: Diluted Sulfuric Acid"]
+inputs = ["Sulfur Powder", "Steam"]
+input_rates = [80, 80000]
+output = "Sulfuric Acid"
+output_rates = [40000]
+
+["Radiator"]
+inputs = ["Alclad Aluminum Plate", "Coolant"]
+input_rates = [75, 30000]
+output_rates = [15, 15000]
+byproducts = ["Coolant"]
+
+["Alternate: Instant Bar Magnet"]
+inputs = ["Power Shard Fragment", "Molten Magnitar™"]
+input_rates = [6, 45000]
+output = "Bar Magnet"
+output_rates = [78, 12000]
+byproducts = ["Spent Slug Slime"]
+
+["Alternate: Nickel-Aluminum Coil"]
+inputs = ["Alumina Solution", "Crushed Nickel"]
+input_rates = [30000, 45]
+output = "Aluminum Coil"
+output_rates = [75, 15000]
+byproducts = ["Water"]
+
+["Pure Hydrogen"]
+inputs = ["Toxic Air", "Carbon Powder"]
+input_rates = [90000, 75]
+output = "Hydrogen"
+output_rates = [90000]
+
+["Alternate: Recycled Caustic Soda"]
+inputs = ["Kyalite Residue", "Muriatic Acid"]
+input_rates = [80, 15000]
+output = "Caustic Soda"
+output_rates = [45000]
+
+["Synthetic Fabric"]
+inputs = ["Polymer Resin", "Steam"]
+input_rates = [90, 15000]
+output = "Fabric"
+output_rates = [30]
+
+["Alternate: Polymer Resin"]
+inputs = ["Ethylene Gas"]
+input_rates = [30000]
+output = "Polymer Resin"
+output_rates = [180, 10000]
+byproducts = ["Fuel"]
+
+["Alternate: Water-cooled Radiator"]
+inputs = ["Aluminum Casing", "Water"]
+input_rates = [40, 30000]
+output = "Radiator"
+output_rates = [10]

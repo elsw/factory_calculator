@@ -1,0 +1,28 @@
+# Satisfactory Plus recipes produced in the Seed Extractor!.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Seed Extractor!"]
+
+["Seed Extractor! extract Dirt"]
+inputs = ["Dirt"]
+input_rates = [30]
+output = "Wheat Seed"
+output_rates = [30, 30, 30, 30]
+byproducts = ["Corn Seed", "Potato Seed", "Carrot Seed"]
+
+["Seed Extractor! extract Peat"]
+inputs = ["Peat"]
+input_rates = [30]
+output = "Yosse Seed"
+output_rates = [30, 30, 30]
+byproducts = ["Banana Seed", "Pumpkin Seed"]
+
+["Seed Extractor! extract Loam"]
+inputs = ["Loam"]
+input_rates = [30]
+output = "Apple Seed"
+output_rates = [30, 30, 30]
+byproducts = ["Mycelia Seed", "Cotton Seed"]

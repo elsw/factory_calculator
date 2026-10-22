@@ -1,0 +1,403 @@
+# Satisfactory Plus recipes produced in the Assembler.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Assembler"]
+
+["Tin Plate"]
+inputs = ["Tin Ingot", "Iron Plate"]
+input_rates = [30, 20]
+output_rates = [40]
+
+["Aluminum Casing"]
+inputs = ["Aluminum Ingot", "Rubber"]
+input_rates = [30, 20]
+output_rates = [40]
+
+["Alternate: Holographic Kerr Crystal"]
+inputs = ["Kerr Crystal", "Solar Cell"]
+input_rates = [25, 22.5]
+output = "Poled Kerr Crystal"
+output_rates = [15]
+
+["Alternate: Modular Steel Frame"]
+inputs = ["Reinforced Iron Plate", "Steel Beam"]
+input_rates = [10, 7.5]
+output = "Modular Frame"
+output_rates = [5]
+
+["Slag Concrete"]
+inputs = ["Cold Slag", "Crushed Gangue"]
+input_rates = [33.75, 11.25]
+output = "Concrete"
+output_rates = [22.5]
+
+["Empty Cryo Tank"]
+inputs = ["Glass", "Plastic"]
+input_rates = [60, 30]
+output_rates = [30]
+
+["Fancy Fireworks"]
+inputs = ["FICSMAS Tree Branch", "FICSMAS Bow"]
+input_rates = [10, 7.5]
+output_rates = [2.5]
+
+["Asphalt Concrete"]
+inputs = ["Crushed Gangue", "Asphalt"]
+input_rates = [37.5, 7.5]
+output = "Concrete"
+output_rates = [45]
+
+["Shatter Rebar"]
+inputs = ["Iron Rebar", "Quartz Crystal"]
+input_rates = [10, 20]
+output_rates = [5]
+
+["Alternate: Insulated Cryo Tank"]
+inputs = ["Empty Fluid Tank", "Rubber"]
+input_rates = [15, 15]
+output = "Empty Cryo Tank"
+output_rates = [15]
+
+["Alternate: Brass Heatsink"]
+inputs = ["Caterium Plate", "Brass Pipes"]
+input_rates = [20, 20]
+output = "Caterium Heatsink"
+output_rates = [10]
+
+["Plutonium Fuel Rod"]
+inputs = ["Encased Plutonium Cell", "EP Control Rod"]
+input_rates = [4, 2.5]
+output_rates = [0.25]
+
+["Fan Blades"]
+inputs = ["Brass Plates", "Iron Rod"]
+input_rates = [12, 22.5]
+output_rates = [7.5]
+
+["Fabric"]
+inputs = ["Biomass", "Mycelia"]
+input_rates = [20, 5]
+output_rates = [10]
+
+["Small FaxIT Disk"]
+inputs = ["Poled Kerr Crystal", "Smart Plating"]
+input_rates = [60, 11.25]
+output_rates = [0.75]
+
+["Circuit Board"]
+inputs = ["Plastic", "Solder Wire"]
+input_rates = [37.5, 20]
+output_rates = [10]
+
+["FICSMAS Ornament Bundle"]
+inputs = ["Copper FICSMAS Ornament", "Iron FICSMAS Ornament"]
+input_rates = [5, 5]
+output_rates = [5]
+
+["Cotton Fabric"]
+inputs = ["Cotton", "Mycelia"]
+input_rates = [80, 40]
+output = "Fabric"
+output_rates = [20]
+
+["Alternate: Stitched Iron Plate"]
+inputs = ["Iron Plate", "Tinned Wire"]
+input_rates = [12, 27]
+output = "Reinforced Iron Plate"
+output_rates = [9]
+
+["Sweet Fireworks"]
+inputs = ["FICSMAS Tree Branch", "Candy Cane"]
+input_rates = [15, 7.5]
+output_rates = [2.5]
+
+["Tin Sheet"]
+inputs = ["Tin Ingot", "Copper Sheet"]
+input_rates = [20, 20]
+output = "Tinned Sheet"
+output_rates = [40]
+
+["Assembly Director System"]
+inputs = ["Supercomputer", "Adaptive Control Unit"]
+input_rates = [3, 1.5]
+output_rates = [1.5]
+
+["Automated Wiring"]
+inputs = ["Stator", "Cable"]
+input_rates = [10, 35]
+output_rates = [3.75]
+
+["Stator"]
+inputs = ["Steel Pipe", "Tinned Wire"]
+input_rates = [18, 36]
+output_rates = [6]
+
+["Reinforced Iron Plate"]
+inputs = ["Tin Plate", "Screws"]
+input_rates = [20, 37.5]
+output_rates = [5]
+
+["Alternate: Heat Exchanger"]
+inputs = ["Aluminum Coil", "Caterium Heatsink"]
+input_rates = [24, 7.2]
+output = "Radiator"
+output_rates = [12]
+
+["Brass Pipes"]
+inputs = ["Brass Plates", "Copper Rod"]
+input_rates = [15, 7.5]
+output_rates = [12.5]
+
+["Alternate: Caterium Circuit Board"]
+inputs = ["Plastic", "Caterium Plate"]
+input_rates = [50, 6]
+output = "Circuit Board"
+output_rates = [14]
+
+["Data Cable"]
+inputs = ["Automated Wiring", "Poled Kerr Crystal"]
+input_rates = [7.5, 72]
+output_rates = [60]
+
+["Rifle Ammo"]
+inputs = ["Brass Pipes", "Smokeless Powder"]
+input_rates = [8, 12]
+output_rates = [60]
+
+["Alternate: Transformer Core"]
+inputs = ["Magnetic Core", "Quickwire"]
+input_rates = [15, 80]
+output = "Stator"
+output_rates = [10]
+
+["Alternate: Adaptive Command Unit"]
+inputs = ["Supercomputer", "Heavy Modular Frame"]
+input_rates = [1, 2]
+output = "Adaptive Control Unit"
+output_rates = [1]
+
+["Polarization Frame"]
+inputs = ["Tinned Sheet", "Glass"]
+input_rates = [48, 48]
+output_rates = [16]
+
+["Alternate: Electronic Control Rod"]
+inputs = ["AI Limiter", "Quickwire"]
+input_rates = [11.25, 100]
+output = "EP Control Rod"
+output_rates = [7.5]
+
+["Pulse Nobelisk"]
+inputs = ["Nobelisk", "Crystal Oscillator"]
+input_rates = [4, 1]
+output_rates = [4]
+
+["AI Limiter"]
+inputs = ["Caterium Plate", "Tinned Wire"]
+input_rates = [24, 18]
+output_rates = [6]
+
+["Alternate: Solid-State Brass Drive"]
+inputs = ["Stator", "Brass Plates"]
+input_rates = [8, 18]
+output = "Brass Belt Drive"
+output_rates = [20]
+
+["Black Powder"]
+inputs = ["Sulfur", "Coal"]
+input_rates = [30, 30]
+output_rates = [30]
+
+["Stun Rebar"]
+inputs = ["Iron Rebar", "Quickwire"]
+input_rates = [10, 50]
+output_rates = [10]
+
+["Smart Plating"]
+inputs = ["Rotor", "Bronze Plates"]
+input_rates = [3.75, 12]
+output_rates = [2.25]
+
+["Bronze Frame"]
+inputs = ["Bronze Beam", "Bronze Pipes"]
+input_rates = [10, 24]
+output_rates = [5]
+
+["Caterium Heatsink"]
+inputs = ["Caterium Plate", "Copper Busbars"]
+input_rates = [28, 10]
+output_rates = [10]
+
+["Modular Frame"]
+inputs = ["Reinforced Iron Plate", "Bronze Beam"]
+input_rates = [7.5, 7.5]
+output_rates = [6]
+
+["FICSMAS Wreath"]
+inputs = ["FICSMAS Tree Branch", "FICSMAS Ornament Bundle"]
+input_rates = [15, 6]
+output_rates = [2]
+
+["Alternate: Compact Biomass"]
+inputs = ["Solid Biofuel", "Biomass"]
+input_rates = [20, 40]
+output = "Compact Biomass"
+output_rates = [60]
+
+["Alternate: OC Supercomputer"]
+inputs = ["Radio Control Unit", "Cooling System"]
+input_rates = [3, 5]
+output = "Supercomputer"
+output_rates = [1.5]
+
+["Power Fragment (2)"]
+inputs = ["Slug DNA - Yellow", "Diamonds"]
+input_rates = [100, 10]
+output = "Power Shard Fragment"
+output_rates = [20]
+
+["Alternate: Titanium Stator"]
+inputs = ["Titanium Pipe", "Copper Busbars"]
+input_rates = [3, 18]
+output = "Stator"
+output_rates = [18]
+
+["Power Fragment (3)"]
+inputs = ["Slug DNA - Purple", "Diamonds"]
+input_rates = [100, 10]
+output = "Power Shard Fragment"
+output_rates = [30]
+
+["Power Fragment (1)"]
+inputs = ["Slug DNA - Blue", "Diamonds"]
+input_rates = [100, 10]
+output = "Power Shard Fragment"
+output_rates = [10]
+
+["Cluster Nobelisk"]
+inputs = ["Nobelisk", "Smokeless Powder"]
+input_rates = [7.5, 10]
+output_rates = [2.5]
+
+["Alternate: Plastic Plating"]
+inputs = ["Rotor", "Plastic"]
+input_rates = [3, 30]
+output = "Smart Plating"
+output_rates = [3]
+
+["Nobelisk"]
+inputs = ["Black Powder", "Bronze Pipes"]
+input_rates = [30, 10]
+output_rates = [10]
+
+["Alternate: Fine Black Powder"]
+inputs = ["Sulfur Powder", "Carbon Powder"]
+input_rates = [20, 40]
+output = "Black Powder"
+output_rates = [40]
+
+["Tinned Wire"]
+inputs = ["Wire", "Tin Rod"]
+input_rates = [60, 45]
+output_rates = [90]
+
+["Smooth Belt Drive"]
+inputs = ["Tinned Sheet", "Rotor"]
+input_rates = [15, 3.75]
+output_rates = [18.75]
+
+["Poled Kerr Crystal"]
+inputs = ["Kerr Crystal", "Polarization Frame"]
+input_rates = [24, 12]
+output_rates = [12]
+
+["Sparkly Fireworks"]
+inputs = ["FICSMAS Tree Branch", "FICSMAS Actual Snow"]
+input_rates = [7.5, 5]
+output_rates = [2.5]
+
+["Alternate: Plutonium Fuel Unit"]
+inputs = ["Encased Plutonium Cell", "Pressure Conversion Cube"]
+input_rates = [12, 1]
+output = "Plutonium Fuel Rod"
+output_rates = [1]
+
+["Encased Industrial Beam"]
+inputs = ["Steel Beam", "Concrete"]
+input_rates = [18, 60]
+output_rates = [6]
+
+["Alternate: Steel Rotor"]
+inputs = ["Copper Busbars", "Steel Pipe"]
+input_rates = [24, 24]
+output = "Rotor"
+output_rates = [12]
+
+["Homing Rifle Ammo"]
+inputs = ["Rifle Ammo", "High-Speed Connector"]
+input_rates = [50, 2.5]
+output_rates = [25]
+
+["Versatile Framework"]
+inputs = ["Bronze Frame", "Steel Rod"]
+input_rates = [3.75, 28.125]
+output_rates = [5.625]
+
+["EP Control Rod"]
+inputs = ["Magnetic Core", "Bar Magnet"]
+input_rates = [13.5, 6.5]
+output_rates = [5]
+
+["Alternate: Aluminum Brass Casing"]
+inputs = ["Aluminum Coil", "Brass Ingot"]
+input_rates = [100, 75]
+output = "Aluminum Casing"
+output_rates = [100]
+
+["Alternate: Fastened Frame"]
+inputs = ["Reinforced Iron Plate", "Screws"]
+input_rates = [10, 150]
+output = "Modular Frame"
+output_rates = [20]
+
+["Alternate: Alternator"]
+inputs = ["Bar Magnet", "Quickwire"]
+input_rates = [6.5, 20]
+output = "Rotor"
+output_rates = [7.5]
+
+["Alternate: Automated Portable Miner"]
+inputs = ["Rotor", "Iron Rod"]
+input_rates = [7.5, 37.5]
+output = "Portable Miner"
+output_rates = [3.75]
+
+["Alternate: Insulated Cable"]
+inputs = ["Wire", "Rubber"]
+input_rates = [45, 15]
+output = "Cable"
+output_rates = [75]
+
+["Gas Nobelisk"]
+inputs = ["Nobelisk", "Biomass"]
+input_rates = [5, 50]
+output_rates = [5]
+
+["Rotor"]
+inputs = ["Copper Busbars", "Iron Wire"]
+input_rates = [22.5, 60]
+output_rates = [7.5]
+
+["Alternate: Encased Industrial Pipe"]
+inputs = ["Steel Pipe", "Concrete"]
+input_rates = [40, 48]
+output = "Encased Industrial Beam"
+output_rates = [4]
+
+["FICSMAS Wonder Star"]
+inputs = ["FICSMAS Wreath", "Candy Cane"]
+input_rates = [5, 20]
+output_rates = [1]

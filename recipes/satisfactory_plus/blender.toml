@@ -1,0 +1,173 @@
+# Satisfactory Plus recipes produced in the Blender.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Blender"]
+
+["Fissile Uranium"]
+inputs = ["Uranium", "Concrete", "Chlorine Gas"]
+input_rates = [60, 30, 120000]
+output = "Encased Uranium Cell"
+output_rates = [15, 45000]
+byproducts = ["Uranium Chloride"]
+
+["Large FaxIT Disk"]
+inputs = ["Medium FaxIT Disk", "Power Management Relay", "Alumina Solution", "Coolant"]
+input_rates = [9, 15, 30000, 30000]
+output_rates = [3]
+
+["Alumina Solution - Basic"]
+inputs = ["Crushed Bauxite", "Carbon Powder", "Caustic Soda"]
+input_rates = [120, 80, 60000]
+output = "Alumina Solution"
+output_rates = [40000, 320]
+byproducts = ["Kyalite Residue"]
+
+["AlClad Belt Drive"]
+inputs = ["Brass Belt Drive", "Alclad Aluminum Plate", "Coolant", "Slug Slime"]
+input_rates = [20, 60, 20000, 15000]
+output_rates = [12.5]
+
+["Coolant"]
+inputs = ["Water", "Ethylene Gas", "Salt"]
+input_rates = [40000, 40000, 20]
+output_rates = [80000]
+
+["Titanium Plate"]
+inputs = ["TiCl Gas", "Hydrogen", "Iron Plate"]
+input_rates = [36000, 120000, 180]
+output = "Titanium Plates"
+output_rates = [12, 36000]
+byproducts = ["Muriatic Acid"]
+
+["Alternate: Cooling Device"]
+inputs = ["Motor", "Radiator", "Nitrogen Gas"]
+input_rates = [7.5, 15, 180000]
+output = "Cooling System"
+output_rates = [15]
+
+["Alternate: Fertile Uranium"]
+inputs = ["Uranium Chloride", "Nitric Acid", "Sand"]
+input_rates = [7500, 10000, 20]
+output = "Non-Fissile Uranium"
+output_rates = [50]
+
+["Alternate: Dark Neutron Fuel"]
+inputs = ["Rocket Fuel", "Condensed Neutrium Gas", "Dark Matter Crystal"]
+input_rates = [60000, 6000, 18]
+output = "Ionized Fuel"
+output_rates = [90000]
+
+["Residual Coolant"]
+inputs = ["Natural Gas", "Caustic Soda", "Kyalite Residue"]
+input_rates = [15000, 7500, 15]
+output = "Coolant"
+output_rates = [45000]
+
+["Alternate: Radio Control System"]
+inputs = ["Crystal Oscillator", "Battery", "Alumina Solution", "Coolant"]
+input_rates = [6, 24, 24000, 48000]
+output = "Radio Control Unit"
+output_rates = [6, 12000]
+byproducts = ["Coolant"]
+
+["Alternate: Sour Packaged Turbofuel"]
+inputs = ["Heavy Oil Residue", "Sour Gas", "Petroleum Coke", "Packaged Water"]
+input_rates = [10000, 35000, 100, 80]
+output = "Packaged Turbofuel"
+output_rates = [80]
+
+["Biochemical Sculptor"]
+inputs = ["Assembly Director System", "Neural-Quantum Processor", "Universal Paint", "Nutrient Mixture"]
+input_rates = [2, 1, 20000, 25000]
+output_rates = [1]
+
+["Alumina Solution - Acidic"]
+inputs = ["Crushed Bauxite", "Carbon Powder", "Muriatic Acid"]
+input_rates = [120, 80, 60000]
+output = "Alumina Solution"
+output_rates = [120000, 160]
+byproducts = ["Kyalite Residue"]
+
+["Fused Modular Frame"]
+inputs = ["Heavy Modular Frame", "Aluminum Casing", "Nitrogen Gas"]
+input_rates = [2.5, 150, 60000]
+output_rates = [2.5]
+
+["Alternate: Nitro Rocket Fuel"]
+inputs = ["Fuel", "Nitrogen Gas", "Smokeless Powder"]
+input_rates = [149999, 75000, 50]
+output = "Rocket Fuel"
+output_rates = [99999]
+
+["Alternate: Instant Titanium Plate"]
+inputs = ["Pure Rutile", "Magnesium Granules", "Natural Gas", "Chlorine Gas"]
+input_rates = [180, 135, 120000, 60000]
+output = "Titanium Plates"
+output_rates = [30]
+
+["Cooling System"]
+inputs = ["Radiator", "Rubber", "Coolant", "Nitrogen Gas"]
+input_rates = [20, 40, 60000, 100000]
+output_rates = [10, 20000]
+byproducts = ["Coolant"]
+
+["Rocket Fuel"]
+inputs = ["Fuel", "Nitric Acid", "Sulfur Powder"]
+input_rates = [120000, 15000, 30]
+output_rates = [60000]
+
+["Alternate: Modular Welded Frame"]
+inputs = ["Reinforced Iron Plate", "Steel Rod", "Ethylene Gas"]
+input_rates = [22.5, 67.5, 30000]
+output = "Modular Frame"
+output_rates = [30]
+
+["Alternate: Crystal Resonator"]
+inputs = ["Quartz Crystal", "Caterium Plate", "Caustic Soda"]
+input_rates = [60, 18, 9000]
+output = "Crystal Oscillator"
+output_rates = [6]
+
+["Alternate: Welded Iron Plate"]
+inputs = ["Iron Plate", "Iron Wire", "Ethylene Gas"]
+input_rates = [60, 45, 15000]
+output = "Reinforced Iron Plate"
+output_rates = [30]
+
+["Alternate: Fusion Welded Frame"]
+inputs = ["Heavy Modular Frame", "Alclad Aluminum Plate", "Fuel", "Nitric Acid"]
+input_rates = [7.5, 168.75, 45000, 18750]
+output = "Fused Modular Frame"
+output_rates = [3.75]
+
+["Alternate: Aluminum Belt Drive"]
+inputs = ["Rubberized Belt Drive", "Aluminum Casing", "Slug Slime", "Coolant"]
+input_rates = [6.25, 37.5, 15000, 20000]
+output = "AlClad Belt Drive"
+output_rates = [12.5]
+
+["Nitric Acid"]
+inputs = ["Nitrogen Gas", "Water", "Iron Sheet"]
+input_rates = [120000, 60000, 10]
+output_rates = [30000]
+
+["Alternate: Welded Bronze Frame"]
+inputs = ["Bronze Plates", "Bronze Beam", "Ethylene Gas"]
+input_rates = [75, 90, 30000]
+output = "Bronze Frame"
+output_rates = [30]
+
+["Alternate: Nitrate Coolant"]
+inputs = ["Nitrogen Gas", "Muriatic Acid", "Copper Sheet"]
+input_rates = [60000, 15000, 15]
+output = "Coolant"
+output_rates = [90000]
+
+["Alternate: Heavy Welded Frame"]
+inputs = ["Modular Frame", "Encased Industrial Beam", "Fuel"]
+input_rates = [7.5, 30, 90000]
+output = "Heavy Modular Frame"
+output_rates = [7.5]

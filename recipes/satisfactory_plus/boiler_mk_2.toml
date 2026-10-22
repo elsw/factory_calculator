@@ -1,0 +1,435 @@
+# Satisfactory Plus recipes produced in the Boiler Mk.2.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Boiler Mk.2"]
+
+["Boiler Tier 2 using Water heated with Carbon Powder at 750°C"]
+inputs = ["Carbon Powder", "Water"]
+input_rates = [12, 45000]
+output = "Flue Gas"
+output_rates = [18000, 90000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Hydrogen at 1250°C"]
+inputs = ["Hydrogen", "Spent Slug Slime"]
+input_rates = [60000, 30000]
+output = "Water"
+output_rates = [15000, 30000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Spitter Remains at 500°C"]
+inputs = ["Spitter Remains", "Spent Slug Slime"]
+input_rates = [15, 9000]
+output = "Flue Gas"
+output_rates = [30000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Plutonium Fuel Rod at 2000°C"]
+inputs = ["Plutonium Fuel Rod", "Water"]
+input_rates = [0.1, 150000]
+output = "Plutonium Waste"
+output_rates = [0.5, 300000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Nuclear Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Hog Remains at 500°C"]
+inputs = ["Hog Remains", "Spent Slug Slime"]
+input_rates = [15, 9000]
+output = "Flue Gas"
+output_rates = [30000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Ionized Fuel at 2000°C"]
+inputs = ["Ionized Fuel", "Spent Slug Slime"]
+input_rates = [10000, 48000]
+output = "Flue Gas"
+output_rates = [20000, 48000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Water heated with Coal at 500°C"]
+inputs = ["Coal", "Water"]
+input_rates = [15, 30000]
+output = "Flue Gas"
+output_rates = [15000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Ficsonium Fuel Rod at 2000°C"]
+inputs = ["Ficsonium Fuel Rod", "Spent Slug Slime"]
+input_rates = [1, 48000]
+output = "Energized Slug Slime"
+output_rates = [48000]
+produced_in = ["Boiler Mk.2", "Nuclear Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Mycelia at 500°C"]
+inputs = ["Mycelia", "Spent Slug Slime"]
+input_rates = [180, 9000]
+output = "Flue Gas"
+output_rates = [22500, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Ethylene Gas at 1000°C"]
+inputs = ["Ethylene Gas", "Spent Slug Slime"]
+input_rates = [36000, 24000]
+output = "Flue Gas"
+output_rates = [12000, 24000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Natural Gas at 750°C"]
+inputs = ["Natural Gas", "Spent Slug Slime"]
+input_rates = [30000, 18000]
+output = "Flue Gas"
+output_rates = [10000, 18000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Uranium Fuel Rod at 2000°C"]
+inputs = ["Uranium Fuel Rod", "Spent Slug Slime"]
+input_rates = [0.2, 48000]
+output = "Uranium Waste"
+output_rates = [3, 48000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Nuclear Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Turbofuel at 1500°C"]
+inputs = ["Turbofuel", "Spent Slug Slime"]
+input_rates = [20000, 36000]
+output = "Flue Gas"
+output_rates = [25000, 36000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Rocket Fuel at 2000°C"]
+inputs = ["Rocket Fuel", "Spent Slug Slime"]
+input_rates = [15000, 48000]
+output = "Flue Gas"
+output_rates = [25000, 48000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Water heated with Ionized Fuel at 2000°C"]
+inputs = ["Ionized Fuel", "Water"]
+input_rates = [10000, 150000]
+output = "Flue Gas"
+output_rates = [20000, 300000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Water heated with Leaves at 500°C"]
+inputs = ["Leaves", "Water"]
+input_rates = [240, 30000]
+output = "Flue Gas"
+output_rates = [30000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Spitter Remains at 500°C"]
+inputs = ["Spitter Remains", "Water"]
+input_rates = [15, 30000]
+output = "Flue Gas"
+output_rates = [30000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Compact Biomass at 500°C"]
+inputs = ["Compact Biomass", "Water"]
+input_rates = [6, 30000]
+output = "Flue Gas"
+output_rates = [6000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Petroleum Coke at 500°C"]
+inputs = ["Petroleum Coke", "Spent Slug Slime"]
+input_rates = [25, 9000]
+output = "Flue Gas"
+output_rates = [15000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Water heated with Uranium Fuel Rod at 2000°C"]
+inputs = ["Uranium Fuel Rod", "Water"]
+input_rates = [0.2, 150000]
+output = "Uranium Waste"
+output_rates = [3, 300000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Nuclear Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Packaged Liquid Biofuel at 500°C"]
+inputs = ["Packaged Liquid Biofuel", "Spent Slug Slime"]
+input_rates = [7.5, 9000]
+output = "Flue Gas"
+output_rates = [7500, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Liquid Biofuel at 1000°C"]
+inputs = ["Liquid Biofuel", "Water"]
+input_rates = [10000, 60000]
+output = "Flue Gas"
+output_rates = [15000, 120000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Sulfur Powder at 500°C"]
+inputs = ["Sulfur Powder", "Spent Slug Slime"]
+input_rates = [30, 9000]
+output = "Sour Gas"
+output_rates = [21000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Water heated with Wood at 500°C"]
+inputs = ["Wood", "Water"]
+input_rates = [36, 30000]
+output = "Flue Gas"
+output_rates = [22500, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Carbon Powder at 750°C"]
+inputs = ["Carbon Powder", "Spent Slug Slime"]
+input_rates = [12, 18000]
+output = "Flue Gas"
+output_rates = [18000, 18000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Coal at 500°C"]
+inputs = ["Coal", "Spent Slug Slime"]
+input_rates = [15, 9000]
+output = "Flue Gas"
+output_rates = [15000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Compact Biomass at 500°C"]
+inputs = ["Compact Biomass", "Spent Slug Slime"]
+input_rates = [6, 9000]
+output = "Flue Gas"
+output_rates = [6000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Rocket Fuel at 2000°C"]
+inputs = ["Rocket Fuel", "Water"]
+input_rates = [15000, 150000]
+output = "Flue Gas"
+output_rates = [25000, 300000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Liquid Biofuel at 1000°C"]
+inputs = ["Liquid Biofuel", "Spent Slug Slime"]
+input_rates = [10000, 24000]
+output = "Flue Gas"
+output_rates = [15000, 24000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Biomass at 500°C"]
+inputs = ["Biomass", "Spent Slug Slime"]
+input_rates = [20, 9000]
+output = "Flue Gas"
+output_rates = [5000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Hog Remains at 500°C"]
+inputs = ["Hog Remains", "Water"]
+input_rates = [15, 30000]
+output = "Flue Gas"
+output_rates = [30000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Biomass at 500°C"]
+inputs = ["Biomass", "Water"]
+input_rates = [20, 30000]
+output = "Flue Gas"
+output_rates = [5000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Packaged Liquid Biofuel at 500°C"]
+inputs = ["Packaged Liquid Biofuel", "Water"]
+input_rates = [7.5, 30000]
+output = "Flue Gas"
+output_rates = [7500, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Ficsonium Fuel Rod at 2000°C"]
+inputs = ["Ficsonium Fuel Rod", "Water"]
+input_rates = [1, 150000]
+output = "Steam"
+output_rates = [300000]
+produced_in = ["Boiler Mk.2", "Nuclear Heater"]
+
+["Boiler Tier 2 using Water heated with Solid Biofuel at 500°C"]
+inputs = ["Solid Biofuel", "Water"]
+input_rates = [8, 30000]
+output = "Flue Gas"
+output_rates = [10000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Leaves at 500°C"]
+inputs = ["Leaves", "Spent Slug Slime"]
+input_rates = [240, 9000]
+output = "Flue Gas"
+output_rates = [30000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Turbofuel at 1500°C"]
+inputs = ["Turbofuel", "Water"]
+input_rates = [20000, 90000]
+output = "Flue Gas"
+output_rates = [25000, 180000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Compacted Coal at 500°C"]
+inputs = ["Compacted Coal", "Spent Slug Slime"]
+input_rates = [7.142857, 9000]
+output = "Flue Gas"
+output_rates = [15000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Water heated with Hydrogen at 1250°C"]
+inputs = ["Hydrogen", "Water"]
+input_rates = [60000, 75000]
+output = "Water"
+output_rates = [15000, 150000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Wood at 500°C"]
+inputs = ["Wood", "Spent Slug Slime"]
+input_rates = [36, 9000]
+output = "Flue Gas"
+output_rates = [22500, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Solid Biofuel at 500°C"]
+inputs = ["Solid Biofuel", "Spent Slug Slime"]
+input_rates = [8, 9000]
+output = "Flue Gas"
+output_rates = [10000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Natural Gas at 750°C"]
+inputs = ["Natural Gas", "Water"]
+input_rates = [30000, 45000]
+output = "Flue Gas"
+output_rates = [10000, 90000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Water heated with Fabric at 500°C"]
+inputs = ["Fabric", "Water"]
+input_rates = [240, 30000]
+output = "Flue Gas"
+output_rates = [30000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Sulfur Powder at 500°C"]
+inputs = ["Sulfur Powder", "Water"]
+input_rates = [30, 30000]
+output = "Sour Gas"
+output_rates = [21000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Plutonium Fuel Rod at 2000°C"]
+inputs = ["Plutonium Fuel Rod", "Spent Slug Slime"]
+input_rates = [0.1, 48000]
+output = "Plutonium Waste"
+output_rates = [0.5, 48000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Nuclear Heater"]
+
+["Boiler Tier 2 using Water heated with Compacted Coal at 500°C"]
+inputs = ["Compacted Coal", "Water"]
+input_rates = [7.142857, 30000]
+output = "Flue Gas"
+output_rates = [15000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Excited Photonic Matter at 1250°C"]
+inputs = ["Excited Photonic Matter", "Spent Slug Slime"]
+input_rates = [100000, 30000]
+output = "Energized Slug Slime"
+output_rates = [30000]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Fabric at 500°C"]
+inputs = ["Fabric", "Spent Slug Slime"]
+input_rates = [240, 9000]
+output = "Flue Gas"
+output_rates = [30000, 9000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]
+
+["Boiler Tier 2 using Water heated with Excited Photonic Matter at 1250°C"]
+inputs = ["Excited Photonic Matter", "Water"]
+input_rates = [100000, 75000]
+output = "Steam"
+output_rates = [150000]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Water heated with Ethylene Gas at 1000°C"]
+inputs = ["Ethylene Gas", "Water"]
+input_rates = [36000, 60000]
+output = "Flue Gas"
+output_rates = [12000, 120000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Spent Slug Slime heated with Fuel at 750°C"]
+inputs = ["Fuel", "Spent Slug Slime"]
+input_rates = [15000, 18000]
+output = "Flue Gas"
+output_rates = [25000, 18000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Water heated with Petroleum Coke at 500°C"]
+inputs = ["Petroleum Coke", "Water"]
+input_rates = [25, 30000]
+output = "Flue Gas"
+output_rates = [15000, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Coal Heater"]
+
+["Boiler Tier 2 using Water heated with Fuel at 750°C"]
+inputs = ["Fuel", "Water"]
+input_rates = [15000, 45000]
+output = "Flue Gas"
+output_rates = [25000, 90000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solution Heater"]
+
+["Boiler Tier 2 using Water heated with Mycelia at 500°C"]
+inputs = ["Mycelia", "Water"]
+input_rates = [180, 30000]
+output = "Flue Gas"
+output_rates = [22500, 60000]
+byproducts = ["Steam"]
+produced_in = ["Boiler Mk.2", "Solid Biomass Heater"]

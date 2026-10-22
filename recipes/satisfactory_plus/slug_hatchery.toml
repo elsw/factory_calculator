@@ -1,0 +1,88 @@
+# Satisfactory Plus recipes produced in the Slug Hatchery.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Slug Hatchery"]
+
+["Slug Hatchery hatch Red Slug"]
+inputs = ["Red Slug Egg"]
+input_rates = [6]
+output = "Red Slug"
+output_rates = [6, 6, 6]
+byproducts = ["Orange Slug", "Pink Slug"]
+
+["Slug Hatchery hatch Turquoise Slug"]
+inputs = ["Turquoise Slug Egg", "Coolant"]
+input_rates = [12, 20000]
+output = "Turquoise Slug"
+output_rates = [12, 12, 12]
+byproducts = ["Red Slug", "Pink Slug"]
+
+["Slug Hatchery hatch Golden Slug"]
+inputs = ["Golden Slug Egg", "Water"]
+input_rates = [12, 90000]
+output = "Golden Slug"
+output_rates = [12]
+
+["Slug Hatchery hatch Lime Slug"]
+inputs = ["Lime Slug Egg", "Water"]
+input_rates = [12, 30000]
+output = "Lime Slug"
+output_rates = [12, 12, 12]
+byproducts = ["White Slug", "Red Slug"]
+
+["Slug Hatchery hatch Yellow Slug"]
+inputs = ["Yellow Slug Egg"]
+input_rates = [15]
+output = "Yellow Slug"
+output_rates = [15, 15, 15]
+byproducts = ["Blue Slug", "White Slug"]
+
+["Slug Hatchery hatch Purple Slug"]
+inputs = ["Purple Slug Egg"]
+input_rates = [15]
+output = "Purple Slug"
+output_rates = [15, 15, 15]
+byproducts = ["White Slug", "Lime Slug"]
+
+["Slug Hatchery hatch White Slug"]
+inputs = ["White Slug Egg"]
+input_rates = [12]
+output = "White Slug"
+output_rates = [12, 12, 12]
+byproducts = ["Turquoise Slug", "Lime Slug"]
+
+["Slug Hatchery hatch Iron Slug"]
+inputs = ["Iron Slug Egg", "Water"]
+input_rates = [12, 90000]
+output = "Iron Slug"
+output_rates = [12]
+
+["Slug Hatchery hatch Orange Slug"]
+inputs = ["Orange Slug Egg"]
+input_rates = [6]
+output = "Orange Slug"
+output_rates = [6, 6, 6]
+byproducts = ["Pink Slug", "Copper Slug"]
+
+["Slug Hatchery hatch Pink Slug"]
+inputs = ["Pink Slug Egg", "Slug Slime"]
+input_rates = [6, 40000]
+output = "Pink Slug"
+output_rates = [6, 6, 6]
+byproducts = ["Orange Slug", "Iron Slug"]
+
+["Slug Hatchery hatch Copper Slug"]
+inputs = ["Copper Slug Egg", "Water"]
+input_rates = [12, 90000]
+output = "Copper Slug"
+output_rates = [12]
+
+["Slug Hatchery hatch Blue Slug"]
+inputs = ["Blue Slug Egg"]
+input_rates = [30]
+output = "Blue Slug"
+output_rates = [30, 30, 30]
+byproducts = ["Yellow Slug", "White Slug"]

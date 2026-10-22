@@ -1,0 +1,32 @@
+# Satisfactory Plus recipes produced in the Space Elevator.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Space Elevator"]
+
+["Assembly"]
+inputs = ["AI Expansion Server", "Biochemical Sculptor", "Ballistic Warp Drive", "Nuclear Pasta"]
+input_rates = [2048, 1500, 1000, 1000]
+output_rates = []
+
+["Main Body"]
+inputs = ["Versatile Framework", "Modular Engine", "Adaptive Control Unit", "Power Management Relay"]
+input_rates = [750, 150, 200, 300]
+output_rates = []
+
+["Propulsion Systems"]
+inputs = ["Magnetic Field Generator", "Assembly Director System", "Thermal Propulsion Rocket", "TITAN Frame"]
+input_rates = [750, 750, 250, 125]
+output_rates = []
+
+["Distribution Platform"]
+inputs = ["Smart Plating", "Modular Frame"]
+input_rates = [75, 25]
+output_rates = []
+
+["Construction Dock"]
+inputs = ["Smart Plating", "Versatile Framework", "Automated Wiring"]
+input_rates = [500, 500, 250]
+output_rates = []

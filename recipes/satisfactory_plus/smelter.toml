@@ -1,0 +1,95 @@
+# Satisfactory Plus recipes produced in the Smelter.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Smelter"]
+
+["Sloppy Glass"]
+inputs = ["Sand"]
+input_rates = [30]
+output = "Glass"
+output_rates = [20]
+
+["Iron Ingot"]
+inputs = ["Crushed Iron"]
+input_rates = [30]
+output_rates = [30]
+
+["Alternate: Cast Iron Screw"]
+inputs = ["Iron Ingot"]
+input_rates = [20]
+output = "Screws"
+output_rates = [40]
+
+["Caterium Ingot"]
+inputs = ["Crushed Caterium"]
+input_rates = [40]
+output_rates = [40]
+
+["Impure Iron Ingot"]
+inputs = ["Crushed Siterite"]
+input_rates = [30]
+output = "Iron Ingot"
+output_rates = [30]
+
+["Impure Tin Ingot"]
+inputs = ["Crushed Siterite"]
+input_rates = [30]
+output = "Tin Ingot"
+output_rates = [15]
+
+["Copper Ingot"]
+inputs = ["Crushed Copper"]
+input_rates = [48]
+output_rates = [48]
+
+["Alternate: Aluminum Rod"]
+inputs = ["Aluminum Ingot"]
+input_rates = [10]
+output = "Iron Rod"
+output_rates = [60]
+
+["Tin Ingot"]
+inputs = ["Crushed Tin"]
+input_rates = [15]
+output_rates = [15]
+
+["Blue FICSMAS Ornament"]
+inputs = ["FICSMAS Gift"]
+input_rates = [5]
+output_rates = [10]
+
+["Lead Ingot"]
+inputs = ["Crushed Lead"]
+input_rates = [30]
+output_rates = [45]
+
+["Impure Caterium Ingot"]
+inputs = ["Crushed Aurovite"]
+input_rates = [40]
+output = "Caterium Ingot"
+output_rates = [24]
+
+["Impure Copper Ingot"]
+inputs = ["Crushed Callanite"]
+input_rates = [24]
+output = "Copper Ingot"
+output_rates = [24]
+
+["Zinc Ingot"]
+inputs = ["Crushed Zinc"]
+input_rates = [24]
+output_rates = [15]
+
+["Red FICSMAS Ornament"]
+inputs = ["FICSMAS Gift"]
+input_rates = [5]
+output_rates = [5]
+
+["Alternate: Cast Iron Wire"]
+inputs = ["Iron Ingot"]
+input_rates = [30]
+output = "Iron Wire"
+output_rates = [45]

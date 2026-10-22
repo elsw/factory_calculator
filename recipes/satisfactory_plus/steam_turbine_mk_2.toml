@@ -1,0 +1,19 @@
+# Satisfactory Plus recipes produced in the Steam Turbine Mk.2.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Steam Turbine Mk.2"]
+
+["Turbine Tier 2 using Steam"]
+inputs = ["Steam"]
+input_rates = [60000]
+output = "Water"
+output_rates = [15000]
+
+["Turbine Tier 2 using Energized Slug Slime"]
+inputs = ["Energized Slug Slime"]
+input_rates = [9000]
+output = "Spent Slug Slime"
+output_rates = [9000]

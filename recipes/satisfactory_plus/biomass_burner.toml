@@ -1,0 +1,37 @@
+# Satisfactory Plus recipes produced in the Biomass Burner.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Biomass Burner"]
+
+["Biomass Burner burn Biomass"]
+inputs = ["Biomass"]
+input_rates = [10]
+output_rates = []
+
+["Biomass Burner burn Wood"]
+inputs = ["Wood"]
+input_rates = [18]
+output_rates = []
+
+["Biomass Burner burn Mycelia"]
+inputs = ["Mycelia"]
+input_rates = [90]
+output_rates = []
+
+["Biomass Burner burn Solid Biofuel"]
+inputs = ["Solid Biofuel"]
+input_rates = [4]
+output_rates = []
+
+["Biomass Burner burn Leaves"]
+inputs = ["Leaves"]
+input_rates = [120]
+output_rates = []
+
+["Biomass Burner burn Packaged Liquid Biofuel"]
+inputs = ["Packaged Liquid Biofuel"]
+input_rates = [2.4]
+output_rates = []

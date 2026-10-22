@@ -1,0 +1,143 @@
+# Satisfactory Plus recipes produced in the Chemical Reactor.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Chemical Reactor"]
+
+["Sweet Fuel"]
+inputs = ["Heavy Oil Residue", "Water"]
+input_rates = [60000, 60000]
+output = "Fuel"
+output_rates = [120000, 30]
+byproducts = ["Sulfur"]
+
+["Battery"]
+inputs = ["Sulfuric Acid", "Water", "Lead Sheet"]
+input_rates = [12500, 30000, 15]
+output_rates = [30, 10000]
+byproducts = ["Water"]
+
+["Alternate: Distilled Oil Residue"]
+inputs = ["Crude Oil", "Steam"]
+input_rates = [120000, 24000]
+output = "Heavy Oil Residue"
+output_rates = [48000, 24, 120]
+byproducts = ["Asphalt", "Petroleum Coke"]
+
+["Toxic Hydrogen"]
+inputs = ["Toxic Air", "Air", "Fabric"]
+input_rates = [120000, 60000, 30]
+output = "Hydrogen"
+output_rates = [30000, 75000]
+byproducts = ["Natural Gas"]
+
+["Distilled Fuel"]
+inputs = ["Purified Crude Oil", "Water"]
+input_rates = [90000, 30000]
+output = "Fuel"
+output_rates = [90000, 45000, 30]
+byproducts = ["Heavy Oil Residue", "Polymer Resin"]
+
+["Alternate: Nickel-Zinc Battery"]
+inputs = ["Molten Zinc", "Molten Nickel", "Empty Canister"]
+input_rates = [12000, 15000, 20]
+output = "Battery"
+output_rates = [25]
+
+["Alternate: Pure Natural Gas"]
+inputs = ["Purified Crude Oil", "TiCl Gas"]
+input_rates = [48000, 18000]
+output = "Natural Gas"
+output_rates = [120000, 96]
+byproducts = ["Polymer Resin"]
+
+["Distilled Silica"]
+inputs = ["Dissolved Silica", "Crushed Gangue"]
+input_rates = [120000, 60]
+output = "Silica"
+output_rates = [270, 90, 120000]
+byproducts = ["Salt", "Water"]
+
+["Simple Power Shard"]
+inputs = ["Power Shard Fragment", "Energized Slug Slime"]
+input_rates = [7.5, 15000]
+output = "Power Shard"
+output_rates = [3.75]
+
+["Alternate: Turbofuel"]
+inputs = ["Fuel", "Sulfuric Acid"]
+input_rates = [60000, 37500]
+output = "Turbofuel"
+output_rates = [60000, 15]
+byproducts = ["Sulfur Powder"]
+
+["Alternate: Diamond Power Fragment"]
+inputs = ["Diamonds", "Spent Slug Slime"]
+input_rates = [16, 24000]
+output = "Power Shard Fragment"
+output_rates = [12]
+
+["Electrolysis - Chlorine Gas"]
+inputs = ["Muriatic Acid", "Copper Busbars"]
+input_rates = [149999, 12.5]
+output = "Chlorine Gas"
+output_rates = [99999, 99999]
+byproducts = ["Hydrogen"]
+
+["Syngas Hydrogen"]
+inputs = ["Natural Gas", "Steam"]
+input_rates = [50000, 30000]
+output = "Hydrogen"
+output_rates = [80000, 80000]
+byproducts = ["Flue Gas"]
+
+["Alternate: Desalted Crude Oil"]
+inputs = ["Crude Oil"]
+input_rates = [75000]
+output = "Purified Crude Oil"
+output_rates = [30000, 45]
+byproducts = ["Salt"]
+
+["Non-Fissile Uranium"]
+inputs = ["Uranium Waste", "Sulfuric Acid", "Nitric Acid"]
+input_rates = [22.5, 25000, 10000]
+output_rates = [100, 37.5, 10000]
+byproducts = ["Salt", "Water"]
+
+["Acid-Base Mix"]
+inputs = ["Salt", "Water"]
+input_rates = [90, 120000]
+output = "Caustic Soda"
+output_rates = [45000, 45000]
+byproducts = ["Muriatic Acid"]
+
+["Synthetic Quartz Crystal"]
+inputs = ["Silica", "Water", "Caustic Soda"]
+input_rates = [60, 25000, 5000]
+output = "Quartz Crystal"
+output_rates = [50]
+
+["Sulfuric Acid"]
+inputs = ["Sour Gas", "Water"]
+input_rates = [52500, 37500]
+output_rates = [37500]
+
+["Distilled Natural Gas"]
+inputs = ["Purified Crude Oil"]
+input_rates = [60000]
+output = "Natural Gas"
+output_rates = [75000, 20000, 20]
+byproducts = ["Heavy Oil Residue", "Asphalt"]
+
+["Liquid Biofuel"]
+inputs = ["Solid Biofuel", "Water"]
+input_rates = [24, 45000]
+output_rates = [30000]
+
+["Encased Uranium Cell"]
+inputs = ["Uranium Chloride", "Water", "Concrete"]
+input_rates = [30000, 20000, 20]
+output_rates = [5, 15000, 40000]
+byproducts = ["Uranium Chloride", "Muriatic Acid"]

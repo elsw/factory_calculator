@@ -1,0 +1,176 @@
+# Satisfactory Plus recipes produced in the Reformer.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Reformer"]
+
+["Cast Caterium Ingot"]
+inputs = ["Molten Caterium", "Water"]
+input_rates = [80000, 40000]
+output = "Caterium Ingot"
+output_rates = [240, 40000]
+byproducts = ["Steam"]
+
+["Cast Steel Ingot"]
+inputs = ["Crushed Gangue", "Molten Steel", "Air"]
+input_rates = [37.5, 30000, 30000]
+output = "Steel Ingot"
+output_rates = [90, 30000, 37.5]
+byproducts = ["Flue Gas", "Cold Slag"]
+
+["Alternate: Steel Cast Plate"]
+inputs = ["Molten Steel", "Water"]
+input_rates = [60000, 20000]
+output = "Iron Plate"
+output_rates = [200, 10000]
+byproducts = ["Steam"]
+
+["Cast Solder"]
+inputs = ["Molten Solder", "Wire", "Air"]
+input_rates = [18000, 90, 30000]
+output = "Solder Wire"
+output_rates = [90, 15]
+byproducts = ["Solder Rod"]
+
+["Cast Magnitar™ Billet"]
+inputs = ["Molten Magnitar™", "Water"]
+input_rates = [45000, 60000]
+output = "Magnitar™ Billet"
+output_rates = [135, 30000]
+byproducts = ["Steam"]
+
+["Alternate: Brazing Wire"]
+inputs = ["Molten Nickel", "Air", "Iron Wire"]
+input_rates = [15000, 30000, 225]
+output = "Solder Wire"
+output_rates = [150]
+
+["Brass Belt Drive"]
+inputs = ["Stator", "Molten Brass", "Air"]
+input_rates = [8, 20000, 36000]
+output_rates = [20]
+
+["Cast Cobalt Ingot"]
+inputs = ["Molten Cobalt", "Water"]
+input_rates = [90000, 60000]
+output = "Cobalt Ingot"
+output_rates = [240, 60000]
+byproducts = ["Steam"]
+
+["Alternate: Cast Bronze Ingot"]
+inputs = ["Molten Copper", "Molten Tin"]
+input_rates = [48000, 20000]
+output = "Bronze Ingot"
+output_rates = [180]
+
+["Alternate: Turbo Thermoplastic"]
+inputs = ["Turbofuel", "Steam"]
+input_rates = [30000, 54000]
+output = "Plastic"
+output_rates = [135, 135]
+byproducts = ["Rubber"]
+
+["Cast Iron Ingot"]
+inputs = ["Molten Iron", "Water"]
+input_rates = [60000, 60000]
+output = "Iron Ingot"
+output_rates = [180, 60000]
+byproducts = ["Steam"]
+
+["Heavy Ethylene Gas"]
+inputs = ["Heavy Oil Residue", "Steam"]
+input_rates = [30000, 90000]
+output = "Ethylene Gas"
+output_rates = [90000, 180]
+byproducts = ["Polymer Resin"]
+
+["Cast Steel Rod"]
+inputs = ["Molten Steel", "Water"]
+input_rates = [20000, 20000]
+output = "Steel Rod"
+output_rates = [37.5, 20000, 20]
+byproducts = ["Steam", "Cold Slag"]
+
+["Cast Copper Ingot"]
+inputs = ["Molten Copper", "Water"]
+input_rates = [48000, 24000]
+output = "Copper Ingot"
+output_rates = [144, 24000]
+byproducts = ["Steam"]
+
+["Cast Aluminum Coil"]
+inputs = ["Alumina Solution", "Magnesium Granules", "Water"]
+input_rates = [90000, 90, 30000]
+output = "Aluminum Coil"
+output_rates = [160, 60, 30000]
+byproducts = ["Aluminum Ingot", "Steam"]
+
+["Cast Brass Ingot"]
+inputs = ["Molten Brass", "Water"]
+input_rates = [40000, 15000]
+output = "Brass Ingot"
+output_rates = [50, 15000]
+byproducts = ["Steam"]
+
+["Cast Lead Ingot"]
+inputs = ["Molten Lead", "Water"]
+input_rates = [40000, 40000]
+output = "Lead Ingot"
+output_rates = [180, 40000]
+byproducts = ["Steam"]
+
+["Polyethylene"]
+inputs = ["Ethylene Gas"]
+input_rates = [45000]
+output = "Plastic"
+output_rates = [62.5, 62.5]
+byproducts = ["Rubber"]
+
+["Alternate: Red Brass Ingot"]
+inputs = ["Molten Copper", "Zinc Ingot", "Molten Tin"]
+input_rates = [30000, 45, 30000]
+output = "Brass Ingot"
+output_rates = [75, 75]
+byproducts = ["Bronze Ingot"]
+
+["Alternate: Fused Quickwire"]
+inputs = ["Molten Caterium", "Molten Copper"]
+input_rates = [3750, 22500]
+output = "Quickwire"
+output_rates = [225]
+
+["Cast Zinc Ingot"]
+inputs = ["Molten Zinc", "Water"]
+input_rates = [90000, 60000]
+output = "Zinc Ingot"
+output_rates = [180, 60000]
+byproducts = ["Steam"]
+
+["Cast Tin Ingot"]
+inputs = ["Molten Tin", "Water"]
+input_rates = [60000, 20000]
+output = "Tin Ingot"
+output_rates = [180, 20000]
+byproducts = ["Steam"]
+
+["Cast Aluminum Ingot"]
+inputs = ["Alumina Solution", "Silica", "Water"]
+input_rates = [60000, 90, 20000]
+output = "Aluminum Ingot"
+output_rates = [120, 40, 30000]
+byproducts = ["Aluminum Coil", "Steam"]
+
+["Alternate: Fused wire"]
+inputs = ["Molten Copper", "Molten Caterium"]
+input_rates = [5000, 10000]
+output = "Wire"
+output_rates = [150]
+
+["Residual Hydrogen"]
+inputs = ["Flue Gas", "Steam"]
+input_rates = [80000, 30000]
+output = "Hydrogen"
+output_rates = [40000, 10]
+byproducts = ["Sulfur"]

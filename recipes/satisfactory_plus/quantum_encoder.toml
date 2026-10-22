@@ -1,0 +1,105 @@
+# Satisfactory Plus recipes produced in the Quantum Encoder.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Quantum Encoder"]
+
+["Ficsonium Fuel Rod"]
+inputs = ["Ficsonium", "EP Control Rod", "Ficsite™ Trigon", "Excited Photonic Matter"]
+input_rates = [3.75, 7.5, 56.25, 150000]
+output_rates = [7.5, 75000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: Super-state Computer"]
+inputs = ["Computer", "AI Limiter", "Plastic", "Excited Photonic Matter"]
+input_rates = [12, 54, 150, 108000]
+output = "Supercomputer"
+output_rates = [9, 36000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: Integrated Silicon Circuit"]
+inputs = ["Silica", "Copper Sheet", "Excited Photonic Matter"]
+input_rates = [200, 100, 60000]
+output = "Circuit Board"
+output_rates = [80, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Ballistic Warp Drive"]
+inputs = ["Singularity Cell", "Thermal Propulsion Rocket", "TITAN Frame", "Excited Photonic Matter"]
+input_rates = [7.5, 1.25, 0.625, 50000]
+output_rates = [1.25, 25000]
+byproducts = ["Energetic Dark Matter"]
+
+["AI Expansion Server"]
+inputs = ["Magnetic Field Generator", "Neural-Quantum Processor", "Quantum Oscillator", "Excited Photonic Matter"]
+input_rates = [4, 8, 16, 160000]
+output_rates = [4, 80000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: Photovoltaic Cell"]
+inputs = ["Quartz Crystal", "Copper Busbars", "Zinc Plates", "Excited Photonic Matter"]
+input_rates = [150, 45, 30, 54000]
+output = "Solar Cell"
+output_rates = [45, 18000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: Encoded Crystal Computer"]
+inputs = ["Circuit Board", "Crystal Oscillator", "Cable", "Excited Photonic Matter"]
+input_rates = [50, 5, 62.5, 75000]
+output = "Computer"
+output_rates = [12.5, 25000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: Silicon High-Speed Interface"]
+inputs = ["Silica", "Quickwire", "Circuit Board", "Excited Photonic Matter"]
+input_rates = [150, 225, 60, 90000]
+output = "High-Speed Connector"
+output_rates = [22.5, 30000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: RF Connection Unit"]
+inputs = ["Quartz Crystal", "Radiator", "High-Speed Connector", "Excited Photonic Matter"]
+input_rates = [56.25, 30, 11.25, 90000]
+output = "Radio Control Unit"
+output_rates = [11.25, 30000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alien Power Matrix"]
+inputs = ["Power Shard", "Quantum Oscillator", "SAM Fluctuator", "Excited Photonic Matter"]
+input_rates = [12.5, 10, 6.25, 100000]
+output_rates = [2.5, 50000]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: Synthetic Power Shard"]
+inputs = ["Power Shard Fragment", "Time Crystal", "Dark Matter Crystal", "Excited Photonic Matter"]
+input_rates = [3.75, 3.75, 7.5, 75000]
+output = "Power Shard"
+output_rates = [7.5, 37500]
+byproducts = ["Energetic Dark Matter"]
+
+["Neural-Quantum Processor"]
+inputs = ["Supercomputer", "Time Crystal", "Ficsite™ Trigon", "Excited Photonic Matter"]
+input_rates = [5, 12.5, 75, 100000]
+output_rates = [2.5, 50000]
+byproducts = ["Energetic Dark Matter"]
+
+["Quantum Oscillator"]
+inputs = ["Crystal Oscillator", "Radio Control Unit", "Dark Matter Crystal", "Excited Photonic Matter"]
+input_rates = [4, 6, 20, 160000]
+output_rates = [8, 80000]
+byproducts = ["Energetic Dark Matter"]
+
+["Huge FaxIT Disk"]
+inputs = ["Large FaxIT Disk", "Neural-Quantum Processor", "Time Crystal", "Excited Photonic Matter"]
+input_rates = [1.5, 3.75, 11.25, 75000]
+output_rates = [0.75, 37500]
+byproducts = ["Energetic Dark Matter"]
+
+["Alternate: SAM Regulator"]
+inputs = ["Reanimated SAM", "Radio Control Unit", "Excited Photonic Matter"]
+input_rates = [112.5, 2.5, 90000]
+output = "SAM Fluctuator"
+output_rates = [7.5, 90000]
+byproducts = ["Energetic Dark Matter"]

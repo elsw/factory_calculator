@@ -1,0 +1,27 @@
+# Satisfactory Plus recipes produced in the Mycelia Plot.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Mycelia Plot"]
+
+["Fertilized Mycelia"]
+inputs = ["Mycelia Seed", "Nutrient Mixture"]
+input_rates = [50, 10000]
+output = "Mycelia"
+output_rates = [50, 20]
+byproducts = ["Leaves"]
+
+["Enriched Mycelia"]
+inputs = ["Mycelia Seed", "Water"]
+input_rates = [30, 30000]
+output = "Mycelia"
+output_rates = [30, 12]
+byproducts = ["Leaves"]
+
+["Mycelia"]
+inputs = ["Mycelia Seed"]
+input_rates = [15]
+output_rates = [15, 6]
+byproducts = ["Leaves"]

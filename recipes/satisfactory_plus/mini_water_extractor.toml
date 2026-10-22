@@ -1,0 +1,13 @@
+# Satisfactory Plus recipes produced in the Mini Water Extractor.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Mini Water Extractor"]
+
+["Mini Water Extractor extract Water"]
+inputs = []
+input_rates = []
+output = "Water"
+output_rates = [75000]

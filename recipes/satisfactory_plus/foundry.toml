@@ -1,0 +1,119 @@
+# Satisfactory Plus recipes produced in the Foundry.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Foundry"]
+
+["Alclad Aluminum Plate"]
+inputs = ["Aluminum Coil", "Zinc Plates"]
+input_rates = [40, 15]
+output_rates = [75]
+
+["Alternate: Classic Steel Ingot"]
+inputs = ["Iron Ingot", "Carbon Powder"]
+input_rates = [30, 15]
+output = "Steel Ingot"
+output_rates = [30]
+
+["Hard Magnetic Core"]
+inputs = ["Magnitar™ Billet", "Cobalt Plates"]
+input_rates = [30, 5]
+output = "Magnetic Core"
+output_rates = [15]
+
+["Alternate: Tempered Steel Rod"]
+inputs = ["Iron Rod", "Carbon Powder"]
+input_rates = [60, 25]
+output = "Steel Rod"
+output_rates = [25]
+
+["Soft Magnetic Core"]
+inputs = ["Magnitar™ Billet", "Caterium Ingot"]
+input_rates = [22.5, 15]
+output = "Magnetic Core"
+output_rates = [11.25]
+
+["Copper FICSMAS Ornament"]
+inputs = ["Red FICSMAS Ornament", "Copper Ingot"]
+input_rates = [10, 10]
+output_rates = [5]
+
+["Thermal Silica"]
+inputs = ["Sand", "Magnesium Granules"]
+input_rates = [30, 27]
+output = "Silica"
+output_rates = [45]
+
+["Alternate: Cast Tin Plate"]
+inputs = ["Tin Ingot", "Iron Ingot"]
+input_rates = [20, 30]
+output = "Tin Plate"
+output_rates = [30]
+
+["Solar Cell"]
+inputs = ["Silica", "Zinc Plates"]
+input_rates = [67.5, 22.5]
+output_rates = [11.25]
+
+["Alternate: Alclad Bronze Plate"]
+inputs = ["Aluminum Ingot", "Bronze Plates"]
+input_rates = [60, 22.5]
+output = "Alclad Aluminum Plate"
+output_rates = [75]
+
+["Bronze Ingot"]
+inputs = ["Copper Ingot", "Tin Ingot"]
+input_rates = [36, 15]
+output_rates = [45]
+
+["Cast Steel Pipe"]
+inputs = ["Steel Ingot", "Sand"]
+input_rates = [30, 24]
+output = "Steel Pipe"
+output_rates = [45]
+
+["Iron FICSMAS Ornament"]
+inputs = ["Blue FICSMAS Ornament", "Iron Ingot"]
+input_rates = [15, 15]
+output_rates = [5]
+
+["Alternate: Solid Brass Ingot"]
+inputs = ["Copper Ingot", "Zinc Ingot"]
+input_rates = [20, 20]
+output = "Brass Ingot"
+output_rates = [40]
+
+["Flint Glass"]
+inputs = ["Silica", "Lead Sheet"]
+input_rates = [45, 11.25]
+output = "Glass"
+output_rates = [60]
+
+["Bronze Pipes"]
+inputs = ["Copper Ingot", "Tin Ingot"]
+input_rates = [24, 15]
+output_rates = [36]
+
+["Alternate: Magnitide™ Billet"]
+inputs = ["Cobalt Ingot", "Aluminum Ingot"]
+input_rates = [5, 10]
+output = "Magnitar™ Billet"
+output_rates = [45]
+
+["Steel Beam"]
+inputs = ["Steel Ingot", "Zinc Ingot"]
+input_rates = [60, 20]
+output_rates = [22.5]
+
+["Alternate: Salty Slag"]
+inputs = ["Salt", "Magnesium Granules"]
+input_rates = [15, 45]
+output = "Cold Slag"
+output_rates = [30]
+
+["Cobalt Ingot"]
+inputs = ["Crushed Cobalt", "Magnesium Granules"]
+input_rates = [45, 27]
+output_rates = [30]

@@ -1,0 +1,464 @@
+# Satisfactory Plus recipes produced in the A.I. Fluid Packer.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["A.I. Fluid Packer"]
+
+["Unpackage Spent Slug Slime"]
+inputs = ["Packaged Spent Slug Slime"]
+input_rates = [60]
+output = "Empty Cryo Tank"
+output_rates = [60, 60000]
+byproducts = ["Spent Slug Slime"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Universal Paint"]
+inputs = ["Packaged Universal Paint"]
+input_rates = [60]
+output = "Empty Cryo Tank"
+output_rates = [60, 60000]
+byproducts = ["Universal Paint"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Wastewater"]
+inputs = ["Packaged Wastewater"]
+input_rates = [60]
+output = "Empty Canister"
+output_rates = [60, 60000]
+byproducts = ["Wastewater"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Air"]
+inputs = ["Packaged Air"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Air"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Spent Slug Slime"]
+inputs = ["Empty Cryo Tank", "Spent Slug Slime"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Fuel"]
+inputs = ["Fuel", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Purified Crude Oil"]
+inputs = ["Empty Canister", "Purified Crude Oil"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Toxic Air"]
+inputs = ["Packaged Toxic Air"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Toxic Air"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Hydrogen"]
+inputs = ["Packaged Hydrogen"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Hydrogen"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Steam"]
+inputs = ["Packaged Steam"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Steam"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Coolant"]
+inputs = ["Empty Cryo Tank", "Coolant"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Sour Gas"]
+inputs = ["Packaged Sour Gas"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Sour Gas"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage TiCl Gas"]
+inputs = ["Packaged TiCl Gas"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["TiCl Gas"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Flue Gas"]
+inputs = ["Packaged Flue Gas"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Flue Gas"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Nitric Acid"]
+inputs = ["Nitric Acid", "Empty Fluid Tank"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Nitric Acid"]
+inputs = ["Packaged Nitric Acid"]
+input_rates = [60]
+output = "Nitric Acid"
+output_rates = [60000, 60]
+byproducts = ["Empty Fluid Tank"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Rocket Fuel"]
+inputs = ["Packaged Rocket Fuel"]
+input_rates = [60]
+output = "Rocket Fuel"
+output_rates = [120000, 60]
+byproducts = ["Empty Fluid Tank"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Energized Slug Slime"]
+inputs = ["Empty Cryo Tank", "Energized Slug Slime"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Alumina Solution"]
+inputs = ["Packaged Alumina Solution"]
+input_rates = [60]
+output = "Alumina Solution"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Algal Mass"]
+inputs = ["Packaged Algal Mass"]
+input_rates = [60]
+output = "Empty Canister"
+output_rates = [60, 60000]
+byproducts = ["Algal Mass"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Ionized Fuel"]
+inputs = ["Packaged Ionized Fuel"]
+input_rates = [60]
+output = "Ionized Fuel"
+output_rates = [120000, 60]
+byproducts = ["Empty Fluid Tank"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Alumina Solution"]
+inputs = ["Alumina Solution", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Liquid Biofuel"]
+inputs = ["Liquid Biofuel", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Natural Gas"]
+inputs = ["Empty Fluid Tank", "Natural Gas"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Algal Mass"]
+inputs = ["Empty Canister", "Algal Mass"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Muriatic Acid"]
+inputs = ["Packaged Muriatic Acid"]
+input_rates = [60]
+output = "Empty Canister"
+output_rates = [60, 60000]
+byproducts = ["Muriatic Acid"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Oil"]
+inputs = ["Packaged Oil"]
+input_rates = [60]
+output = "Crude Oil"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Coolant"]
+inputs = ["Packaged Coolant"]
+input_rates = [60]
+output = "Empty Cryo Tank"
+output_rates = [60, 60000]
+byproducts = ["Coolant"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Slug Slime"]
+inputs = ["Packaged Slug Slime"]
+input_rates = [60]
+output = "Empty Cryo Tank"
+output_rates = [60, 60000]
+byproducts = ["Slug Slime"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Hydrogen"]
+inputs = ["Empty Fluid Tank", "Hydrogen"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Ethylene Gas"]
+inputs = ["Packaged Ethylene Gas"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Ethylene Gas"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Steam"]
+inputs = ["Empty Fluid Tank", "Steam"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Universal Paint"]
+inputs = ["Empty Cryo Tank", "Universal Paint"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Flue Gas"]
+inputs = ["Empty Fluid Tank", "Flue Gas"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Ionized Fuel"]
+inputs = ["Ionized Fuel", "Empty Fluid Tank"]
+input_rates = [120000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Natural Gas"]
+inputs = ["Packaged Natural Gas"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Natural Gas"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Muriatic Acid"]
+inputs = ["Empty Canister", "Muriatic Acid"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Oil"]
+inputs = ["Crude Oil", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Caustic Soda"]
+inputs = ["Empty Canister", "Caustic Soda"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged TiCl Gas"]
+inputs = ["Empty Fluid Tank", "TiCl Gas"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Air"]
+inputs = ["Empty Fluid Tank", "Air"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Energized Slug Slime"]
+inputs = ["Packaged Energized Slug Slime"]
+input_rates = [60]
+output = "Empty Cryo Tank"
+output_rates = [60, 60000]
+byproducts = ["Energized Slug Slime"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Toxic Air"]
+inputs = ["Empty Fluid Tank", "Toxic Air"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Nitrogen Gas"]
+inputs = ["Packaged Nitrogen Gas"]
+input_rates = [60]
+output = "Nitrogen Gas"
+output_rates = [120000, 60]
+byproducts = ["Empty Fluid Tank"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Heavy Oil Residue"]
+inputs = ["Packaged Heavy Oil Residue"]
+input_rates = [60]
+output = "Heavy Oil Residue"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Nitrogen Gas"]
+inputs = ["Nitrogen Gas", "Empty Fluid Tank"]
+input_rates = [120000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Sulfuric Acid"]
+inputs = ["Packaged Sulfuric Acid"]
+input_rates = [60]
+output = "Sulfuric Acid"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Water"]
+inputs = ["Packaged Water"]
+input_rates = [60]
+output = "Water"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Water"]
+inputs = ["Water", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Liquid Biofuel"]
+inputs = ["Packaged Liquid Biofuel"]
+input_rates = [60]
+output = "Liquid Biofuel"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Chlorine Gas"]
+inputs = ["Empty Fluid Tank", "Chlorine Gas"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Wastewater"]
+inputs = ["Empty Canister", "Wastewater"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Slug Slime"]
+inputs = ["Empty Cryo Tank", "Slug Slime"]
+input_rates = [60, 60000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Turbofuel"]
+inputs = ["Turbofuel", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Ethylene Gas"]
+inputs = ["Empty Fluid Tank", "Ethylene Gas"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Purified Crude Oil"]
+inputs = ["Packaged Purified Crude Oil"]
+input_rates = [60]
+output = "Empty Canister"
+output_rates = [60, 60000]
+byproducts = ["Purified Crude Oil"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Steam (2)"]
+inputs = ["Packaged Steam"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Steam"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Chlorine Gas"]
+inputs = ["Packaged Chlorine Gas"]
+input_rates = [60]
+output = "Empty Fluid Tank"
+output_rates = [60, 120000]
+byproducts = ["Chlorine Gas"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Turbofuel"]
+inputs = ["Packaged Turbofuel"]
+input_rates = [60]
+output = "Turbofuel"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Heavy Oil Residue"]
+inputs = ["Heavy Oil Residue", "Empty Canister"]
+input_rates = [60000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Sour Gas"]
+inputs = ["Empty Fluid Tank", "Sour Gas"]
+input_rates = [60, 120000]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Caustic Soda"]
+inputs = ["Packaged Caustic Soda"]
+input_rates = [60]
+output = "Empty Canister"
+output_rates = [60, 60000]
+byproducts = ["Caustic Soda"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Unpackage Fuel"]
+inputs = ["Packaged Fuel"]
+input_rates = [60]
+output = "Fuel"
+output_rates = [60000, 60]
+byproducts = ["Empty Canister"]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Steam (2)"]
+inputs = ["Empty Fluid Tank", "Steam"]
+input_rates = [60, 120000]
+output = "Packaged Steam"
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]
+
+["Packaged Rocket Fuel"]
+inputs = ["Rocket Fuel", "Empty Fluid Tank"]
+input_rates = [120000, 60]
+output_rates = [60]
+produced_in = ["A.I. Fluid Packer", "Packager"]

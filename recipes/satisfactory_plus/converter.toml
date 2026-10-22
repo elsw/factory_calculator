@@ -1,0 +1,226 @@
+# Satisfactory Plus recipes produced in the Converter.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Converter"]
+
+["Uranium Ore (Montanion)"]
+inputs = ["Reanimated SAM", "Montanion Ore"]
+input_rates = [20, 240]
+output = "Uranium"
+output_rates = [60]
+
+["Coal (Callanite)"]
+inputs = ["Reanimated SAM", "Callanite Ore"]
+input_rates = [20, 180]
+output = "Coal"
+output_rates = [240, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Chlorine Gas (Siterite)"]
+inputs = ["Reanimated SAM", "Siterite Ore"]
+input_rates = [20, 360]
+output = "Chlorine Gas"
+output_rates = [60000]
+
+["Ficsite™ Ingot (Bronze)"]
+inputs = ["Reanimated SAM", "Bronze Ingot"]
+input_rates = [50, 120]
+output = "Ficsite Ingot"
+output_rates = [20]
+
+["Alternate: Resonance Crystal"]
+inputs = ["Diamonds", "Quartz Crystal"]
+input_rates = [15, 30]
+output = "Time Crystal"
+output_rates = [15]
+
+["Ficsite™ Ingot (Caterium)"]
+inputs = ["Reanimated SAM", "Caterium Ingot"]
+input_rates = [60, 120]
+output = "Ficsite Ingot"
+output_rates = [30]
+
+["Alternate: Gravity Cell"]
+inputs = ["Nuclear Pasta", "Dark Matter Crystal"]
+input_rates = [1.5, 75]
+output = "Singularity Cell"
+output_rates = [7.5]
+
+["Callanite Ore (Sulfur)"]
+inputs = ["Reanimated SAM", "Sulfur"]
+input_rates = [20, 120]
+output = "Callanite Ore"
+output_rates = [240, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Kyalite Ore (Larrussite)"]
+inputs = ["Reanimated SAM", "Larrussite Ore"]
+input_rates = [20, 480]
+output = "Kyalite"
+output_rates = [240]
+
+["Nitrogen Gas (Uranium)"]
+inputs = ["Reanimated SAM", "Uranium"]
+input_rates = [15, 15]
+output = "Nitrogen Gas"
+output_rates = [90000]
+
+["Coal (Siterite)"]
+inputs = ["Reanimated SAM", "Siterite Ore"]
+input_rates = [20, 300]
+output = "Coal"
+output_rates = [240]
+
+["Kyalite Ore (Montanion)"]
+inputs = ["Reanimated SAM", "Montanion Ore"]
+input_rates = [20, 240]
+output = "Kyalite"
+output_rates = [240, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Condensed Neutrium Gas"]
+inputs = ["Copper Powder"]
+input_rates = [37.5]
+output_rates = [7500]
+
+["Alternate: Diamond Simulant"]
+inputs = ["Petroleum Coke", "Silica"]
+input_rates = [200, 80]
+output = "Diamonds"
+output_rates = [40]
+
+["Uranium Ore (Aurovite)"]
+inputs = ["Reanimated SAM", "Aurovite Ore"]
+input_rates = [20, 480]
+output = "Uranium"
+output_rates = [60, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Excited Photonic Matter"]
+inputs = []
+input_rates = []
+output_rates = [50000]
+
+["EDM Fluctuator"]
+inputs = ["Dark Matter Crystal"]
+input_rates = [60]
+output = "SAM Fluctuator"
+output_rates = [10]
+
+["Alternate: Pure Time Crystal"]
+inputs = ["Diamonds"]
+input_rates = [45]
+output = "Time Crystal"
+output_rates = [15]
+
+["Time Crystal"]
+inputs = ["Diamonds", "Solar Cell"]
+input_rates = [20, 5]
+output_rates = [10]
+
+["Aurovite Ore (Callanite)"]
+inputs = ["Reanimated SAM", "Callanite Ore"]
+input_rates = [20, 320]
+output = "Aurovite Ore"
+output_rates = [240, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Ficsite™ Ingot (Iron)"]
+inputs = ["Reanimated SAM", "Iron Ingot"]
+input_rates = [40, 120]
+output = "Ficsite Ingot"
+output_rates = [10]
+
+["Chlorine Gas (Kerr Crystal)"]
+inputs = ["Reanimated SAM", "Kerr Crystal"]
+input_rates = [15, 30]
+output = "Chlorine Gas"
+output_rates = [90000]
+
+["Montanion Ore (Kerr Crystal)"]
+inputs = ["Reanimated SAM", "Kerr Crystal"]
+input_rates = [20, 80]
+output = "Montanion Ore"
+output_rates = [240, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Ficsite™ Ingot (Aluminum)"]
+inputs = ["Reanimated SAM", "Aluminum Ingot"]
+input_rates = [80, 120]
+output = "Ficsite Ingot"
+output_rates = [40]
+
+["Montanion Ore (Aurovite)"]
+inputs = ["Reanimated SAM", "Aurovite Ore"]
+input_rates = [20, 320]
+output = "Montanion Ore"
+output_rates = [240]
+
+["Sulfur (Coal)"]
+inputs = ["Reanimated SAM", "Coal"]
+input_rates = [20, 480]
+output = "Sulfur"
+output_rates = [240]
+
+["Larrusite Ore (Siterite)"]
+inputs = ["Reanimated SAM", "Siterite Ore"]
+input_rates = [20, 240]
+output = "Larrussite Ore"
+output_rates = [240, 20000]
+byproducts = ["Energetic Dark Matter"]
+
+["Aurovite Ore (Kyalite)"]
+inputs = ["Reanimated SAM", "Kyalite"]
+input_rates = [20, 120]
+output = "Aurovite Ore"
+output_rates = [240]
+
+["Nitrogen Gas (Sulfur)"]
+inputs = ["Reanimated SAM", "Sulfur"]
+input_rates = [20, 120]
+output = "Nitrogen Gas"
+output_rates = [60000]
+
+["Kerr Crystal (Kyalite)"]
+inputs = ["Reanimated SAM", "Kyalite"]
+input_rates = [20, 240]
+output = "Kerr Crystal"
+output_rates = [60, 40000]
+byproducts = ["Energetic Dark Matter"]
+
+["Callanite Ore (Larrussite)"]
+inputs = ["Reanimated SAM", "Larrussite Ore"]
+input_rates = [20, 300]
+output = "Callanite Ore"
+output_rates = [240]
+
+["Alternate: Power Conversion Cube"]
+inputs = ["TITAN Frame", "SAM Fluctuator"]
+input_rates = [1.25, 10]
+output = "Pressure Conversion Cube"
+output_rates = [6.25]
+
+["Energetic Dark Matter"]
+inputs = ["Reanimated SAM"]
+input_rates = [25]
+output_rates = [50000]
+
+["Larrussite Ore (Coal)"]
+inputs = ["Reanimated SAM", "Coal"]
+input_rates = [20, 160]
+output = "Larrussite Ore"
+output_rates = [240]
+
+["Pressure Conversion Cube"]
+inputs = ["Fused Modular Frame", "SAM Fluctuator"]
+input_rates = [2, 5]
+output_rates = [2.5]
+
+["Alternate: Sour Ionized Fuel"]
+inputs = ["Packaged Turbofuel", "Power Shard"]
+input_rates = [75, 7.5]
+output = "Ionized Fuel"
+output_rates = [75000]

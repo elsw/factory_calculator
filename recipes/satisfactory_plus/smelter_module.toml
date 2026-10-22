@@ -1,0 +1,63 @@
+# Satisfactory Plus recipes produced in the Smelter Module.
+# Auto-generated from the k-mods.com catalog export (dataVersion 2026.3.511-6f31e3629624de8e80963d7f).
+# "produced_in" lists every machine that can run the recipe; the
+# [default] applies to all entries unless an entry overrides it.
+
+[default]
+produced_in = ["Smelter Module"]
+
+["Smelter Module replace product with Crushed Gangue"]
+inputs = []
+input_rates = []
+output = "Crushed Gangue"
+output_rates = [60, 20000]
+byproducts = ["Tailings Slurry"]
+produced_in = ["Smelter Module", "Modular Miner"]
+
+["Smelter Module replace product with Zinc Ingot"]
+inputs = []
+input_rates = []
+output = "Zinc Ingot"
+output_rates = [60, 20000]
+byproducts = ["Tailings Slurry"]
+produced_in = ["Smelter Module", "Modular Miner"]
+
+["Smelter Module replace product with Crushed Gangue (2)"]
+inputs = []
+input_rates = []
+output = "Crushed Gangue"
+output_rates = [60, 20000]
+byproducts = ["Tailings Slurry"]
+produced_in = ["Smelter Module", "Modular Miner"]
+
+["Smelter Module replace product with Caterium Ingot"]
+inputs = []
+input_rates = []
+output = "Caterium Ingot"
+output_rates = [60, 20000]
+byproducts = ["Tailings Slurry"]
+produced_in = ["Smelter Module", "Modular Miner"]
+
+["Smelter Module replace product with Crushed Gangue (3)"]
+inputs = []
+input_rates = []
+output = "Crushed Gangue"
+output_rates = [60, 20000]
+byproducts = ["Tailings Slurry"]
+produced_in = ["Smelter Module", "Modular Miner"]
+
+["Smelter Module replace product with Copper Ingot"]
+inputs = []
+input_rates = []
+output = "Copper Ingot"
+output_rates = [60, 20000]
+byproducts = ["Tailings Slurry"]
+produced_in = ["Smelter Module", "Modular Miner"]
+
+["Smelter Module replace product with Iron Ingot"]
+inputs = []
+input_rates = []
+output = "Iron Ingot"
+output_rates = [60, 20000]
+byproducts = ["Tailings Slurry"]
+produced_in = ["Smelter Module", "Modular Miner"]
