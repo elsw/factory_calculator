@@ -1,7 +1,5 @@
 use std::println;
 
-use serde::Deserialize;
-use toml::map::Map;
 use std::collections::HashMap;
 
 #[derive(Debug, Clone)]
@@ -45,9 +43,9 @@ impl Recipe {
 
 pub struct RecipeCollection {
 	// A map of all the recipes. <Recipe Name,Recipe Struct>
-	recipes: HashMap<String,Recipe>,
+	pub recipes: HashMap<String,Recipe>,
 	// Lookup map of outputs, and which recipes have them as an output
-	output_lookup: HashMap<String,Vec<String>>
+	pub output_lookup: HashMap<String,Vec<String>>
 }
 
 impl RecipeCollection {
@@ -60,11 +58,6 @@ impl RecipeCollection {
 		self.recipes.extend(other.recipes);
 		self.output_lookup.extend(other.output_lookup);
 	}
-}
-
-pub fn parse_files(folder_path: &str) -> RecipeCollection {
-	let all_recipes = RecipeCollection::new();
-	all_recipes
 }
 
 pub fn parse_file(path: &str) -> RecipeCollection  {
