@@ -7,3 +7,5 @@ edition = "2024"
 toml = "0.7.6"
 serde = { version = '1.0', features = ['derive'] }
 fs = "0.0.6"
+cursive = "0.21"
+flowmaid = "0.32.0"

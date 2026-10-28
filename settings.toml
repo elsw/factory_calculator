@@ -1,6 +1,5 @@
-[global]
 game_version = "satisfactory_plus"
 use_blueprints = false
 
 # Ignore recipes like "Slug Slime boosted Miner" etc. We are just interested in the flow of recipes and the factory design
-recipe_blacklist = ["Alternate","Slug Slime","Muriatic Acid"]
+recipe_blacklist = ["Alternate","Slug Slime","Muriatic Acid","Fertilized","Enriched"]

@@ -2,6 +2,8 @@ use std::println;
 
 use std::collections::HashMap;
 
+use crate::GlobalSettings;
+
 #[derive(Debug, Clone)]
 pub struct Recipe {
     output: String,
@@ -60,7 +62,7 @@ impl RecipeCollection {
 	}
 }
 
-pub fn parse_file(path: &str) -> RecipeCollection  {
+pub fn parse_file(path: &str,settings: &GlobalSettings) -> RecipeCollection  {
 	let mut recipe_collection: RecipeCollection = RecipeCollection::new();
 
 	let content: String = match std::fs::read_to_string(path) {
@@ -86,18 +88,26 @@ pub fn parse_file(path: &str) -> RecipeCollection  {
 	}
 	
 	for (key, value) in values.into_iter() {
+		let mut add_recipe = true;
 		if key == "default" {
-			continue;
-		} 
-
-		let mut recipe: Recipe = default.clone();
-		recipe.import(&key,value.as_table().expect("not a table").clone());
-		
-		if !recipe_collection.output_lookup.contains_key(&recipe.output) {
-			recipe_collection.output_lookup.insert(recipe.output.clone(), Vec::new());
+			add_recipe = false;
 		}
-		recipe_collection.output_lookup.get_mut(&recipe.output).expect("Interal logic error").push(key.clone());
-		recipe_collection.recipes.insert(key,recipe);
+		for blacklist_str in settings.recipe_blacklist.iter() {
+			if key.contains(blacklist_str) {
+				add_recipe = false;
+			}
+		}
+
+		if(add_recipe) { 
+			let mut recipe: Recipe = default.clone();
+			recipe.import(&key,value.as_table().expect("not a table").clone());
+			
+			if !recipe_collection.output_lookup.contains_key(&recipe.output) {
+				recipe_collection.output_lookup.insert(recipe.output.clone(), Vec::new());
+			}
+			recipe_collection.output_lookup.get_mut(&recipe.output).expect("Interal logic error").push(key.clone());
+			recipe_collection.recipes.insert(key,recipe);
+		}
 	}
 
 	recipe_collection
