@@ -98,7 +98,7 @@ pub fn parse_file(path: &str,settings: &GlobalSettings) -> RecipeCollection  {
 			}
 		}
 
-		if(add_recipe) { 
+		if add_recipe { 
 			let mut recipe: Recipe = default.clone();
 			recipe.import(&key,value.as_table().expect("not a table").clone());
 			
