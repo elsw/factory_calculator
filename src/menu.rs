@@ -10,6 +10,7 @@
 //Todo fully understand shared objects
 
 use std::format;
+use std::str::FromStr;
 use std::sync::Arc;
 use std::rc::Rc;
 
@@ -20,6 +21,7 @@ use cursive::view::{Nameable, Resizable};
 use cursive::views::{Dialog, EditView, LinearLayout, SelectView, TextView};
 
 use crate::recipe::RecipeCollection;
+use crate::flowchart::plot_flowchart;
 
 fn generate_recipe_list(recipes : &Rc<RecipeCollection>) -> Vec<String> {
     let mut recipe_list: Vec<String> = recipes.recipes.keys().cloned().collect();
@@ -147,10 +149,13 @@ fn show_next_window(siv: &mut Cursive, recipe_name: &str) {
 
 fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
     siv.pop_layer();
-    siv.call_on_name("info_box", |t: &mut TextView| {
-        t.append(format!("Goal is {} {} per minute\n",produce_per_minute,recipe_name));
-        t.append("Cogitating....\n");
-    });
+    log_message(siv, format!("Goal is {} {} per minute",produce_per_minute,recipe_name));
+    log_message(siv,format!("Cogitating...."));
+
+    // siv.call_on_name("info_box", |t: &mut TextView| {
+    //     t.append(format!("Goal is {} {} per minute\n",produce_per_minute,recipe_name));
+    //     t.append("Cogitating....\n");
+    // });
 
     //Grab the recipe library
     let recipe_library: &Rc<RecipeCollection> = match siv.user_data::<Rc<RecipeCollection>>() {
@@ -162,5 +167,8 @@ fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
     };
 
     //Run solver
-    
+
+    //Output flowchart
+    plot_flowchart("result.svg");  
+    log_message(siv,format!("Flowchart result outputted to result.svg"));
 }

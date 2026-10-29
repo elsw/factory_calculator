@@ -76,5 +76,4 @@ fn main() {
     let recipes = init_recipe_library(&settings);
     let recipes_shared : Rc<RecipeCollection> = Rc::new(recipes);
     menu::run(recipes_shared);
-    flowchart::plot_flowchart();
 }
