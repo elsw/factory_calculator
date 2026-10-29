@@ -2,7 +2,7 @@ mod recipe;
 mod menu;
 mod flowchart;
 
-use std::{fmt::format, fs, println};
+use std::{fs, println};
 
 use serde::Deserialize;
 
@@ -51,8 +51,7 @@ fn init_recipe_library(settings: &GlobalSettings) -> RecipeCollection {
         let path_str = path_buf.to_str().expect("invalid_string");
 
         //Read in recipes
-        let mut read_in = parse_file(&path_str,settings);
-
+        let read_in = parse_file(&path_str,settings);
         recipes.append(read_in);
     }
 

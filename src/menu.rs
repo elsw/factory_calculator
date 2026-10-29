@@ -9,6 +9,7 @@
 //TODO rully understand closures and capturing in callbacks works https://doc.rust-lang.org/book/ch13-01-closures.html
 //Todo fully understand shared objects
 
+use std::format;
 use std::sync::Arc;
 
 use cursive::Cursive;
@@ -41,41 +42,48 @@ pub fn run(recipes : &RecipeCollection) {
     let names_for_edit = Arc::clone(&recipe_names);
 
     siv.add_layer(
-        Dialog::around(
-            LinearLayout::vertical()
-                // the query box is on the top
-                .child(
-                    EditView::new()
-                        // `move` transfers ownership of names_for_edit into the closure.
-                        // Without `move`, the closure would try to borrow it and fail the
-                        // 'static bound. After this line names_for_edit can't be used here.
-                        .on_edit(move |siv, query, _cursor| on_edit(siv, &names_for_edit, query))
-                        // submit the focused (first) item of the matches
-                        .on_submit(on_submit)
-                        .with_name("query"),
+        LinearLayout::vertical()
+            .child(
+                Dialog::around(
+                    TextView::new(format!("Read in {} Recipes\n",recipe_names.len()))
+                    .with_name("info_box")
+                ).fixed_height(20)
+                .fixed_width(100)
+            )
+            .child(
+                Dialog::around(
+                    LinearLayout::vertical()
+                        // the query box is on the top
+                        .child(
+                            EditView::new()
+                                // `move` transfers ownership of names_for_edit into the closure.
+                                // Without `move`, the closure would try to borrow it and fail the
+                                // 'static bound. After this line names_for_edit can't be used here.
+                                .on_edit(move |siv, query, _cursor| on_edit(siv, &names_for_edit, query))
+                                // submit the focused (first) item of the matches
+                                .on_submit(on_submit)
+                                .with_name("query"),
+                        )
+                        // search results below the input
+                        .child(
+                            SelectView::new()
+                                // with_all_str copies each &String into the view, so a plain
+                                // borrow is fine here: nothing is kept after this call.
+                                .with_all_str(recipe_names.iter())
+                                // Sets the callback for when "Enter" is pressed.
+                                .on_submit(show_next_window)
+                                // Center the text horizontally
+                                .h_align(HAlign::Center)
+                                .with_name("matches")
+                                .scrollable(),
+                        )
+                        .fixed_height(10),
                 )
-                // search results below the input
-                .child(
-                    SelectView::new()
-                        // with_all_str copies each &String into the view, so a plain
-                        // borrow is fine here: nothing is kept after this call.
-                        .with_all_str(recipe_names.iter())
-                        // Sets the callback for when "Enter" is pressed.
-                        .on_submit(show_next_window)
-                        // Center the text horizontally
-                        .h_align(HAlign::Center)
-                        .with_name("matches")
-                        .scrollable(),
-                )
-                .fixed_height(10),
-        )
-        .button("Quit", Cursive::quit)
-        .title("Select a Recipe"),
+                .button("Quit", Cursive::quit)
+                .title("Select a Recipe"),
+            )
     );
 
-    // The count is now 2: one here, one inside the on_edit closure.
-    // When `recipe_names` goes out of scope at the end of run() the count drops to 1,
-    // and the Vec is freed only when the closure itself is dropped (when its view is).
     siv.run();
 }
 
@@ -120,7 +128,20 @@ fn on_submit(siv: &mut Cursive, query: &str) {
 }
 
 fn show_next_window(siv: &mut Cursive, recipe_name: &str) {
+    let recipe_name = recipe_name.to_string();
+    siv.add_layer(Dialog::around(EditView::new()
+        .on_submit(move |s, query| run_solver(s, query, &recipe_name))
+        .with_name("rate"))
+        .title("Input desired Items per Minute"));
+}
+
+fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
     siv.pop_layer();
-    let text = format!("TODO resolve {recipe_name} !");
-    siv.add_layer(Dialog::around(TextView::new(text)).button("Quit", |s| s.quit()));
+    siv.call_on_name("info_box", |t: &mut TextView| {
+        t.append(format!("Goal is {} {} per minute\n",produce_per_minute,recipe_name));
+        t.append("Cogitating....\n");
+    });
+
+    //TODO run solver
+    
 }
