@@ -22,9 +22,10 @@ use cursive::views::{Dialog, EditView, LinearLayout, SelectView, TextView};
 
 use crate::recipe::RecipeCollection;
 use crate::flowchart::plot_flowchart;
+use crate::solver;
 
 fn generate_recipe_list(recipes : &Rc<RecipeCollection>) -> Vec<String> {
-    let mut recipe_list: Vec<String> = recipes.recipes.keys().cloned().collect();
+    let mut recipe_list: Vec<String> = recipes.output_lookup.keys().cloned().collect();
     recipe_list.sort();
     recipe_list
 }
@@ -48,7 +49,7 @@ pub fn run(recipes : Rc<RecipeCollection>) {
         LinearLayout::vertical()
             .child(
                 Dialog::around(
-                    TextView::new(format!("Read in {} Recipes\n",recipe_names.len()))
+                    TextView::new(format!("Read in {} Items\n",recipe_names.len()))
                     .with_name("info_box")
                 ).fixed_height(20)
                 .fixed_width(100)
@@ -152,11 +153,6 @@ fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
     log_message(siv, format!("Goal is {} {} per minute",produce_per_minute,recipe_name));
     log_message(siv,format!("Cogitating...."));
 
-    // siv.call_on_name("info_box", |t: &mut TextView| {
-    //     t.append(format!("Goal is {} {} per minute\n",produce_per_minute,recipe_name));
-    //     t.append("Cogitating....\n");
-    // });
-
     //Grab the recipe library
     let recipe_library: &Rc<RecipeCollection> = match siv.user_data::<Rc<RecipeCollection>>() {
         Some(data) => data,
@@ -166,7 +162,17 @@ fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
 		}
     };
 
+    let Ok(target_per_min) = f32::from_str(produce_per_minute) else {
+        log_message(siv,format!("Invalid input entered to per min target!"));
+        return;
+    };
+
     //Run solver
+    let logs = solver::solve(recipe_library, recipe_name, target_per_min);
+
+    for message in logs {
+        log_message(siv, message);
+    }
 
     //Output flowchart
     plot_flowchart("result.svg");  

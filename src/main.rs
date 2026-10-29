@@ -1,6 +1,7 @@
 mod recipe;
 mod menu;
 mod flowchart;
+mod solver;
 
 use std::{fs, println};
 use std::rc::Rc;

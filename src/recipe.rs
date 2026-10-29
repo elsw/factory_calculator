@@ -6,12 +6,12 @@ use crate::GlobalSettings;
 
 #[derive(Debug, Clone)]
 pub struct Recipe {
-    output: String,
-	output_rates: Vec<f32>,
-	byproducts: Vec<String>,
-    inputs: Vec<String>,
-	input_rates: Vec<f32>,
-	produced_in: Vec<String>
+    pub output: String,
+	pub output_rates: Vec<f32>,
+	pub byproducts: Vec<String>,
+    pub inputs: Vec<String>,
+	pub input_rates: Vec<f32>,
+	pub produced_in: Vec<String>
 }
 
 impl Recipe {
