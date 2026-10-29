@@ -11,6 +11,7 @@
 
 use std::format;
 use std::sync::Arc;
+use std::rc::Rc;
 
 use cursive::Cursive;
 use cursive::align::HAlign;
@@ -20,18 +21,18 @@ use cursive::views::{Dialog, EditView, LinearLayout, SelectView, TextView};
 
 use crate::recipe::RecipeCollection;
 
-fn generate_recipe_list(recipes : &RecipeCollection) -> Vec<String> {
+fn generate_recipe_list(recipes : &Rc<RecipeCollection>) -> Vec<String> {
     let mut recipe_list: Vec<String> = recipes.recipes.keys().cloned().collect();
     recipe_list.sort();
     recipe_list
 }
 
-pub fn run(recipes : &RecipeCollection) {
+pub fn run(recipes : Rc<RecipeCollection>) {
     let mut siv = cursive::default();
 
     // Arc::new moves the Vec onto the heap with a reference count of 1.
     // The Vec is never copied after this; only the pointer is.
-    let recipe_names: Arc<Vec<String>> = Arc::new(generate_recipe_list(recipes));
+    let recipe_names: Arc<Vec<String>> = Arc::new(generate_recipe_list(&recipes));
 
     // Why not just capture `&recipe_names`? The callbacks must be 'static: they live
     // inside the view tree, which outlives this stack frame, so they can't hold a
@@ -84,7 +85,16 @@ pub fn run(recipes : &RecipeCollection) {
             )
     );
 
+    //Give Cursive access to the recipe library
+    let recipe_collection: Rc<RecipeCollection> = Rc::clone(&recipes);
+    siv.set_user_data(recipe_collection);
     siv.run();
+}
+
+fn log_message(siv: &mut Cursive,message: String){
+    siv.call_on_name("info_box", |t: &mut TextView| {
+        t.append(format!("{}\n",message));
+    });
 }
 
 // Update results according to the query.
@@ -142,6 +152,15 @@ fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
         t.append("Cogitating....\n");
     });
 
-    //TODO run solver
+    //Grab the recipe library
+    let recipe_library: &Rc<RecipeCollection> = match siv.user_data::<Rc<RecipeCollection>>() {
+        Some(data) => data,
+        None => {
+			println!("Interal Error accessing recipe library");
+			std::process::exit(1);
+		}
+    };
+
+    //Run solver
     
 }

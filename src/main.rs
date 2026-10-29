@@ -3,6 +3,7 @@ mod menu;
 mod flowchart;
 
 use std::{fs, println};
+use std::rc::Rc;
 
 use serde::Deserialize;
 
@@ -73,6 +74,7 @@ fn init_recipe_library(settings: &GlobalSettings) -> RecipeCollection {
 fn main() {
     let settings = init_settings("settings.toml");
     let recipes = init_recipe_library(&settings);
-    menu::run(&recipes);
+    let recipes_shared : Rc<RecipeCollection> = Rc::new(recipes);
+    menu::run(recipes_shared);
     flowchart::plot_flowchart();
 }
