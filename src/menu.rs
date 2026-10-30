@@ -9,7 +9,7 @@
 //TODO rully understand closures and capturing in callbacks works https://doc.rust-lang.org/book/ch13-01-closures.html
 //Todo fully understand shared objects
 
-use std::format;
+use std::{format, println};
 use std::str::FromStr;
 use std::sync::Arc;
 use std::rc::Rc;
@@ -168,7 +168,8 @@ fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
     };
 
     //Run solver
-    let logs = solver::solve(recipe_library, recipe_name, target_per_min);
+    let mut flow_str: Vec<String> = Vec::new();
+    let logs = solver::solve(recipe_library,&mut flow_str, recipe_name, target_per_min);
 
     for message in logs {
         log_message(siv, message);

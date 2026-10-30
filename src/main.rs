@@ -3,11 +3,11 @@ mod menu;
 mod flowchart;
 mod solver;
 
-use std::{fs, println};
+use std::{fs, print, println};
 use std::rc::Rc;
 
 use serde::Deserialize;
-
+use crate::flowchart::plot_flowchart;
 use crate::recipe::{RecipeCollection, parse_file};
 
 #[derive(Debug, Clone,Deserialize)]
@@ -76,5 +76,17 @@ fn main() {
     let settings = init_settings("settings.toml");
     let recipes = init_recipe_library(&settings);
     let recipes_shared : Rc<RecipeCollection> = Rc::new(recipes);
-    menu::run(recipes_shared);
+   // menu::run(recipes_shared);
+
+    let mut flow_str: Vec<String> = Vec::new();
+    let logs = solver::solve(&recipes_shared,&mut flow_str, "Iron Ingot", 60.0);
+    
+    for message in logs {
+        println!("{}",message);
+    }
+    for s in flow_str.iter() {
+        print!("Flow Str {}",s);
+    }
+
+    plot_flowchart("result.svg");  
 }
