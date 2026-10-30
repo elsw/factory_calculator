@@ -4,15 +4,14 @@ use std::{format, println};
 
 pub struct Flowchart {
     pub output_path: String,
-    pub links: Vec<String>,
-    pub last_node_str: String,
+    pub links: Vec<String>
 }
 
 impl Flowchart {
     pub fn new(output_path: String) -> Self {
         let links: Vec<String> = Vec::new();
         let last_node_str: String = String::from_str("Done[Done]").expect("Internal error");
-        Self { output_path, links, last_node_str} 
+        Self { output_path, links } 
     }
 
     pub fn plot_flowchart(&mut self) {
@@ -37,13 +36,10 @@ impl Flowchart {
         }
     }
 
-    pub fn append_link(&mut self, building :&String, building_amount :f32,target_output :&str, output_rate :f32) {
-        let building_unique_name = building.replace(" ", "_");
-
+    pub fn append_link(&mut self,building_unique_name: &String, building :&String, building_amount :f32,target_output :&str, output_rate :f32,parent_unique_name: &String) {
         let node_str = format!("{}[{} x{}] ",building_unique_name,building,building_amount);
         let output_str = format!("|{}/min {}|",output_rate,target_output);
 
-        self.links.push(format!("{} --> {} {}\n",node_str,output_str,self.last_node_str));
-        self.last_node_str = node_str;
+        self.links.push(format!("{} --> {} {}\n",node_str,output_str,parent_unique_name));
     }
 }

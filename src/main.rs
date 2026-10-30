@@ -9,6 +9,7 @@ use std::rc::Rc;
 use serde::Deserialize;
 use crate::flowchart::Flowchart;
 use crate::recipe::{RecipeCollection, parse_file};
+use crate::solver::Solver;
 
 #[derive(Debug, Clone,Deserialize)]
 pub struct GlobalSettings {
@@ -76,17 +77,13 @@ fn main() {
     let settings = init_settings("settings.toml");
     let recipes = init_recipe_library(&settings);
     let recipes_shared : Rc<RecipeCollection> = Rc::new(recipes);
-   // menu::run(recipes_shared);
+    menu::run(recipes_shared);
 
-    let mut flowchart = Flowchart::new(format!("result.svg"));
-    let logs = solver::solve(&recipes_shared,&mut flowchart, "Iron Ingot", 60.0);
+    // let mut solver = Solver::new(&recipes_shared,format!("result.svg"));
+    // solver.solve( "Tin Plate", 60.0);
     
-    for message in logs {
-        println!("{}",message);
-    }
-    for s in flowchart.links.iter() {
-        print!("Flow Str {}",s);
-    }
-
-    flowchart.plot_flowchart();  
+    // for message in solver.log_messages {
+    //     println!("{}",message);
+    // }
+    //solver.flowchart.plot_flowchart();  
 }
