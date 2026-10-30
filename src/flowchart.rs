@@ -1,35 +1,49 @@
 
 use std::str::FromStr;
 use std::{format, println};
-use crate::recipe::Recipe;
 
-pub fn plot_flowchart(output_path: &str) {
-    let mut test_string = String::new();
-    test_string += "Smelter[Smelter x2]  --> |60/min Iron Ingot| Iron_Ingot[Done]\n";
-    test_string += "Crusher[Crusher x1]  --> |60/min Crushed Siterite| Smelter[Smelter x2]\n";
-    test_string += "Modular_Miner[Modular Miner x1]  --> |60/min Siterite Ore| Crusher[Crusher x1]\n";
-
-	let Ok(flow) = flowmaid::render_svg(test_string.as_str()) else {
-        println!("Internal error generating flowchart");
-        return;
-    };
-    if !flow.starts_with("<svg") {
-        println!("Internal error with generated flowchart");
-        return;
-    }
-
-    match std::fs::write(output_path, flow) {
-        Err(_e) => println!("Unable to write to result"),
-        Ok(_e) => println!("Output Result to result.svg")
-    }
+pub struct Flowchart {
+    pub output_path: String,
+    pub links: Vec<String>,
+    pub last_node_str: String,
 }
 
-pub fn append_link(current_str : &mut Vec<String>, building :&String, building_amount :f32,target_output :&str, output_rate :f32) {
-    let building_unique_name = building.replace(" ", "_");
-    let connect_to_name = target_output.replace(" ", "_");
+impl Flowchart {
+    pub fn new(output_path: String) -> Self {
+        let links: Vec<String> = Vec::new();
+        let last_node_str: String = String::from_str("Done[Done]").expect("Internal error");
+        Self { output_path, links, last_node_str} 
+    }
 
-    let node_flow_str = format!("{}[{} x{}] ",building_unique_name,building,building_amount);
-    let output_flow_str = format!("|{}/min {}|",output_rate,target_output);
+    pub fn plot_flowchart(&mut self) {
+        let mut complete_string = String::new();
+        for s in self.links.iter() {
+            complete_string.push_str(s.as_str());
+            complete_string.push_str("\n");
+        }
 
-    current_str.push(format!("{} --> {} {}\n",node_flow_str,output_flow_str,connect_to_name));
+        let Ok(flow) = flowmaid::render_svg(complete_string.as_str()) else {
+            println!("Internal error generating flowchart");
+            return;
+        };
+        if !flow.starts_with("<svg") {
+            println!("Internal error with generated flowchart");
+            return;
+        }
+
+        match std::fs::write(&self.output_path, flow) {
+            Err(_e) => println!("Unable to write to result"),
+            Ok(_e) => println!("Output Result to result.svg")
+        }
+    }
+
+    pub fn append_link(&mut self, building :&String, building_amount :f32,target_output :&str, output_rate :f32) {
+        let building_unique_name = building.replace(" ", "_");
+
+        let node_str = format!("{}[{} x{}] ",building_unique_name,building,building_amount);
+        let output_str = format!("|{}/min {}|",output_rate,target_output);
+
+        self.links.push(format!("{} --> {} {}\n",node_str,output_str,self.last_node_str));
+        self.last_node_str = node_str;
+    }
 }

@@ -21,7 +21,7 @@ use cursive::view::{Nameable, Resizable};
 use cursive::views::{Dialog, EditView, LinearLayout, SelectView, TextView};
 
 use crate::recipe::RecipeCollection;
-use crate::flowchart::plot_flowchart;
+use crate::flowchart::Flowchart;
 use crate::solver;
 
 fn generate_recipe_list(recipes : &Rc<RecipeCollection>) -> Vec<String> {
@@ -168,14 +168,14 @@ fn run_solver(siv: &mut Cursive,produce_per_minute: &str,recipe_name: &str) {
     };
 
     //Run solver
-    let mut flow_str: Vec<String> = Vec::new();
-    let logs = solver::solve(recipe_library,&mut flow_str, recipe_name, target_per_min);
+    let mut flowchart = Flowchart::new(format!("result.svg"));
+    let logs = solver::solve(recipe_library,&mut flowchart, recipe_name, target_per_min);
 
     for message in logs {
         log_message(siv, message);
     }
 
     //Output flowchart
-    plot_flowchart("result.svg");  
-    log_message(siv,format!("Flowchart result outputted to result.svg"));
+    //plot_flowchart("result.svg");  
+    //log_message(siv,format!("Flowchart result outputted to result.svg"));
 }

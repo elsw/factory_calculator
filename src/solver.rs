@@ -1,10 +1,10 @@
-use crate::flowchart::append_link;
+use crate::flowchart::Flowchart;
 use crate::recipe::RecipeCollection;
 
 use std::format;
 use std::rc::Rc;
 
-pub fn solve(collection: &Rc<RecipeCollection>,flow_str: &mut Vec<String>, target_output: &str, target_per_min: f32) -> Vec<String> {
+pub fn solve(collection: &Rc<RecipeCollection>,flowchart: &mut Flowchart, target_output: &str, target_per_min: f32) -> Vec<String> {
     let mut logs: Vec<String> = Vec::new();
     logs.push(format!("Running step, target output {target_output} at {target_per_min}"));
 
@@ -42,7 +42,7 @@ pub fn solve(collection: &Rc<RecipeCollection>,flow_str: &mut Vec<String>, targe
     let machines_required= target_per_min / base_output_per_min;
     logs.push(format!("Requires {} {} machines set to {}",machines_required,produced_in,producer.output));
 
-    append_link(flow_str,produced_in,machines_required,target_output,target_per_min);
+    flowchart.append_link(produced_in,machines_required,target_output,target_per_min);
     
     //Resolve inputs to this producer
     for i in 0..producer.inputs.len() {
@@ -56,7 +56,7 @@ pub fn solve(collection: &Rc<RecipeCollection>,flow_str: &mut Vec<String>, targe
         };
         let target_input_per_min =  base_input_per_min * machines_required;
 
-        let mut inner_logs = solve(&collection,flow_str,input,target_input_per_min);
+        let mut inner_logs = solve(&collection,flowchart,input,target_input_per_min);
         logs.append(&mut inner_logs);
     }
 
